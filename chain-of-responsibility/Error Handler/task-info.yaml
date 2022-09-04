@@ -1,0 +1,18 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: error-handler.js
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 666
+    placeholder_text: /* TODO - implement handle(request) */
+- name: handler.js
+  visible: false
+- name: base-handler.js
+  visible: false
+- name: content-handler.js
+  visible: false
+- name: auth-handler.js
+  visible: false

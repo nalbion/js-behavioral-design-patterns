@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: base-handler.js
+  visible: false
+- name: handler.js
+  visible: false
+- name: test/test.js
+  visible: false
+- name: api-handler.js
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 520
+    placeholder_text: /* TODO - implement handle(request) */
+- name: content-handler.js
+  visible: false

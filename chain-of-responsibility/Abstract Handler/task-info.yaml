@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: handler.js
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 119
+    placeholder_text: /* TODO - Create an abstract `Handler` class */

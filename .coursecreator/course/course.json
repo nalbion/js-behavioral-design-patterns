@@ -1,0 +1,527 @@
+{
+  "course_version" : 1,
+  "summary" : "This course aims to give students an understanding and hands-on experience with behavioral design patterns:\n\n- Chain of Responsibility\n- Command\n- Iterator\n- Mediator\n- Memento\n- Observer\n- State\n- Strategy\n- Template Method\n- Visitor",
+  "title" : "Behavioral Design Patterns in JavaScript",
+  "programming_language" : "JavaScript",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "items" : [
+    {
+      "title" : "chain-of-responsibility",
+      "task_list" : [
+        {
+          "id" : 1080646333,
+          "name" : "Chain of Responsibility",
+          "files" : {
+            "app.js" : {
+              "name" : "app.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "mfRt6gHbZvWsfZPuPe4715FsRtspZsVvZXcQx4l5wBV0L43ul9zfLmvka1EqToom7LoBlrhebx4fCqCuZXyyzrd+OaxnL7Si1TefZ06p3yITfo7c911uV/j3iFss0PuD2m2OkhjlHekd3eQg5MXFaqGW9TXMNV5jvpK0tT5Wq9V0fzb4uIvwhdjAZXc3nIUuF92RIR4vVwATqXairsrt/A=="
+            },
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "OgVtmvkLau0rfgbMmLdJS+q1uWmhbrqqTgfb968XG9Lt68ISjLapsxqxlIAbEks96G49UPAY26gXYyRSbU59avceA2RRbbSOMUgv3g5ovUGu0sztJjPcZBTmM4XLNXqYBBErpTiQz1Ioexa9aoOKbg=="
+            },
+            "types.js" : {
+              "name" : "types.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "jBnd3HWiFmtdZM28iNGtIOr3NLNPgLfNdGBOu52a8Zxa+Ym1R2vwWXoX93Vi7JQ00Qz0Ivt2RRx4NiWk6Cn6cg2HkHCoDNBoc8rkW81SyQbvdnqgSFIe+BL9njJ6K4FU"
+            }
+          },
+          "description_text" : "The **chain of responsibility** pattern (also known as chain of command) is a behavioral design pattern which\ninvolves a source of **command** objects which are sent along a chain of processing **handlers**.\n\nThe application, or **client**, composes a chain of handlers and sends the command/request\nto the first handler in the chain.\n\nIn this lesson we use the chain of responsibility pattern to build a web server.\n\nIf you click the **Run** button below, the app will run and print the Hello World response to the console.\n\nClick **Next** to get started building more functionality into the app. \n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 641757495,
+          "name" : "Abstract Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "tiYKeZ8naH0mInQVZkk6oMekMmYhCL9M+nhR3B0dAUpL0dMmlEwFuIpD4AjMeNaCjH0uMe5sj++GutIfFhiFNxyvyNI9oQdR1tZtyM5aV95/RHib3XpSKdTsuk5t/OyZsWB1W0SzivNVAe5bOXewHYG6ibZ/bCYs+uUqiRhsqPdsWMOmlsLoodmwFEvPLbPqVCkHvBFqT+PwWZP44v4mkkOiwGK+lBNjLZ3q7gAamhvBoSTGkn4qcbua+Ph3uvrUpAQCHbpg7YNGJCcPc0v69N2FFqorWJKvE891fJ/T8T2t1chLMYlg+QrT8ZRz7IGqjrv3oS4HrodrhiLX27cD18Jb1SS/BDtRJN/HJjG1VVUpbaWWmoEDXTACJ6aSzVA73hunDIjKt8STG8yTJB5/+x3VC9KrxKmBdo73qqehIMt+IYeEtKh+lkWMWmAbbwlvZUY6l/jgN5bx6EWM42HsAP6K+BTn2Esj/ouWi4XA1mzmip0cohjaBoBU7HkHy/OIl/Q6aIQAWPJyAYPS1yBg+jRmV9sC1OMAkg/jjPiXksW79yWL6p+ddyRx0IDsSApbyfalTrkIBQPwPJ1Qe98LEdbgNLA3ViHR2bStJ7uskvnv2IicKoyNloPKvvHLXAjiwERs/vcxow1mcDU5Hbkp1nNEd31g8l5R17ZCh7jGM45hkmdF7PfuczT1ImUeK0oUAf9ptC3udVbDzjU8nNMOFX0VtKkgFzD7aZpiAvu5Hiz4YlMfvqb62xWZ3tmbosF8"
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 47,
+                  "possible_answer" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1VZpoAjVQmGGQ5yVYTkAaE=",
+                  "placeholder_text" : "/* TODO - Create an abstract `Handler` class */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "Y/bP9irWknPnmWoX6U+fJitbk++h47jxmdkSj5D6m99SDO6pd8yT4/OWjIN3OYveab+SWVkMLcCd72L8q5jjd21bQ6GXgbN73aiFsheKqzU="
+            }
+          },
+          "description_text" : "The core of the chain of responsibility pattern is the `Handler`.\n\nCreate a `Handler` interface with an abstract `handle` method \nwhich takes a `Request` object and returns a `Response`.\n\n<div class=\"hint\">\n<pre>\nclass Handler {\n  method(param);\n}\n</pre>\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 436934484,
+          "name" : "Base Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LME9Vf2L+zSIq+oXmqxSD+MYi5/JZNXpAWmHKe2fdNvBIbk8DwT75DBWAHHaM8MJrSEB1PrpCJOBZeqWq2JYv9K4wopszCzq5XuwcNQSH7/ujH03bOd2FRTyI3uBFruR4c/umW/dInxOI9kPWZGWjO3FSEjC1I8zxLb+Wcs8XNshixDWmNBdDVtIvFB3TzbSEez9s2jLdKVewXSDBfoVT5N1PhsgFtgt9z2e/Jb5ytYkNUrf+57ey3cZt40P8N44Uc3afTwuhLthNXYgt2w/f9butVI/axhNAgH9JIcNEVcBSEpfj7QKup9kCOiXOHQy4Byn+h5ep31RULkDiCEpKF2Gd+EzEV82GcmDJykeEwsV"
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 39,
+                  "length" : 37,
+                  "possible_answer" : "lQ9Doik2FHsLT5G8uyfF6X0I1Syl+dJTJnHJwm43S0W1n7vtl9RyZcmt9itCfyvOApBFNaw2OjcUdQH9uG5YC07Ub2xRI4NXjsFO1St+xVrAeNn8BY590jNY2M0x0qLsf3lbZPhzABJ2bC20KmpW5GS69IRQgtrekHwL582vATEiaVne/+2cbrMvqIi3SauR9fvv4AkoYGS8Kct6/XRY80HKb3vsuKGDgfx/MwFoD39UV0FKkYO5uvVR4bH7DEyL/C9LZdQIDQWCex1Z0T6Z3LCSxX0Utiym71rq91kiiDOfji/dLcaRBfDo8gcwWVlR",
+                  "placeholder_text" : "/* TODO - create BaseHandler class */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOZAbtix7mXizxy3KwjXUqKYR0IdHwoK+oxkXwKsEPQ75D3kV2M2Z2wpPlHacgln0NHG2uKsY9Q2Un7CGCvB+YwRkKMHxhBTCItOLX4tkIkb5g=="
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 24,
+                  "dependency" : {
+                    "lesson" : "chain-of-responsibility",
+                    "task" : "Abstract Handler",
+                    "file" : "handler.js",
+                    "placeholder" : 0,
+                    "is_visible" : true
+                  },
+                  "possible_answer" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1VZpoAjVQmGGQ5yVYTkAaE=",
+                  "placeholder_text" : "/* Your Handler class */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "FmKtrgO8kkVfYlQTr+zVQ1NjDnx29WUMFweK0qnlnyIavAfzoOWDWU9fWFbFHPjOMhj4EBb1u6CeOFBFo3HyrA=="
+            }
+          },
+          "description_text" : "Create a `BaseHandler` class. It's not going to do anything very exciting for now.\nIt should simply return `{ status: 404, body: 'Not Found' }`",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 65578984,
+          "name" : "Next Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LME9Vf2L+zSIq+oXmqxSD+MYi5/JZNXpAWmHKe2fdNvBMiaa34SzwEpXcKILOB+YqpqZhp9tscksHc09ue/kPt8aJLiglKIgN7smg8Bhs9m3WGGqYHgrCzWRtC31V1B4XoNHhSYTae4UqEfpF1SG5AFlT7x6WBpb2CYA+CyhDBaOPx7+NRbih0WSZaMlenqw+x5qlWi1RmATqnG07xNw6dfxuY4Xz3ebVroLAwM01ld3h4rr7VMvmwTZ5bPpYF1bLdm+cibsblEwQuOO8eRkul9l4XZL48Q5BT5B4ha1+lQAqoLowW9zBjVI60FQBn+ozLaV4wUysGQeq1Mpsc329VNv+VqryXt/zlZtLmuOGrR1W1WZr5u/qURtQAy6KC7r1Se1jXHzLy3evwj//rfILevKHm/UisdGPCHbNbDtfz3gUf1oSVws6w/RpwQUlMRmLk1+4cWW+YmiRAk7PddsP/Y5fn9A4eAHN0kpTO6WhbqDyLbQkJYIcNmCt2yFzbzIAt99kwfwIEASRh+wScs2Xm1bNClGbnZBgEMbl/A94Brje9O+T5yr5Dwxoeqx0dZMru3ZzjmKeMKlqN8CsN5oMLD/05/ShX90KyM0+wubQDw1YfU5G2oOM1BxyGTSUIL8cezgqx3KBn7hZtbWf6EA6lUHe51q3ZtvaRsu24dB3rit2OJU2gCyg3TR6h+qipWYLK+0OjAOMhk5pgvH/zg4SjNCwHej5d9G4tRhhKPlXYhy69LIIrmkMUW7QMog3j0me+y/hIMYFRW85E4mNot9hY0HfIGe2mTO5EVtD2ZNnzB1pFJLzvC+f9dLV6fmrd75MKXRnRbjWxJFUCFfcEXw6FY7lUjJD2mqw/oRGujaqzVf4fPjSH1iZHg3qzABjjJJL4FuQdg8Uc6zy8ka7EjO3tOwOZeOjK7JqyxgjqQDu6GuOb2/FaIpMmBUCmyPhjAtBdrJKPw2pA2POyn/HvyEbsKuXee/Eg0Cdk2xI855w5aHij6YYkm7TpboutWAOE6GcJ4YkYphjaDeVcdkUp21n/VUVU6u2LL6l8GzdHr8MferX9QsDo3TFG84LKCdVnMUZVBnz2cl9HZkEc97twNGUMqj5X+E8ssRZ5SRaGGExq8SWMm91MaUYw4n+Jbw/3qn8wQcmBMhLP85eaRFl7zg+so="
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 107,
+                  "length" : 72,
+                  "possible_answer" : "5fZ8lhdP1dQ662tQzQEsO3AGqYCpJk75BIGQtRf3Fx1lBZY8X0nOGKXTIS3C4NgRSvc6W76D5KHnW5vSmgff4w==",
+                  "placeholder_text" : "/* TODO - add a private field to hold a reference to the next handler */"
+                },
+                {
+                  "offset" : 302,
+                  "length" : 34,
+                  "possible_answer" : "I3JpIZxu20H2IPFaLE3PeboneHQkR+u0kgC4weDdUfTW+vciJ+o01EJnQ1LdRWf9LT06ZdgbqJhRX/O5ePLG2fpmAhTHCI78Vn7z2oOtExE=",
+                  "placeholder_text" : "/* TODO - call the next handler */"
+                },
+                {
+                  "offset" : 399,
+                  "length" : 39,
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvcbwHEoWXzDP4rPdxrRwEZ2WP5GXZ70VCTAUDZrQYI37KzDL+omfppM2/WpC7OiZuC0CdtAIQMVxjX18gyu32Ham9zshR5GJiCpttr6auyASq+MUc9Dxw2A6Ml/QWnG94s=",
+                  "placeholder_text" : "/* TODO - add a setNext(next) method */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiY2hxyyalwhtU09g5ONWoSwaDFCRSlylUIVQvA4zn285KN+xX7LbhoNP1X9MjR/PfdPHOHPmHxLEuC/bt0KmCU72v7UA40zTMmfs2BkdAi5SBKF7C227aABhK1+Pf1Bi4Zb4mocZZ9v0c1jXS8sGs6F+rEevNawSEQIR+6gScT4sC53gtc0gdBpZVSomSln9aPNf7J7Te5WDyPSzSr7EyOBBlKVGRH+vXDEOd6aMzGHoXrMKt60dokXUNd9B8heTSkW3P3Tplb7/wcwp04rfM4LoTWs9aTn4vZ3q4x8X7eEDkUHVPwLl64434vNwMKTuwVcB2bp/mynx1xMfl6X27Cn+p82ETOSk40/ZUXVeeks+fL4uz0hkjxUVHYcEpFzoCrnhA17cBcxSD+phGtamISnXbhVXF07thXqywds9vyyTQDLCemAD2xOXY+/+B99zhXTjUU7rDsG06sv2MuaK+d76m+geD4mdTepXapgTOEGKblO7wzE/KKR/nCTITkwjEv"
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 121,
+                  "length" : 31,
+                  "possible_answer" : "cUDMDwkD6ySs2PX7JxlMF4SvE1YcjSEqCVzvwJMtYGh6L+o1Kr27wyYdP9CJAImJ9Tm8E/zn3jRfJaV3s+F6buDgOIsLgMz4byq4qJ9Jnvg=",
+                  "placeholder_text" : "/* TODO - add setNext method */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/w1/4AFvLqSMihvqBD/dHmgsO2Op1aQxUL9hlAhgpc+9sWVNlU/136IY1twuy9Fndaza/P0Dauj2oo67hAN39NNkSsJOOfyoTgtNxKjnhc1T"
+            }
+          },
+          "description_text" : "In order to build a chain, we need to add a `setNext(handler)` method to the `Handler` interface.\n\nThe `BaseHandler` needs to implement `setNext(handler)` - it should be enough to simply maintain a reference to the next `Handler` in a **private** field.\n\nThe `handle(request)` method will also need to forward the request to the next `Handler` in the chain.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 113810004,
+          "name" : "Content Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LME9Vf2L+zSIq+oXmqxSD+MYi5/JZNXpAWmHKe2fdNvBa4T+NHFhWE767nJpjtPg/ejXOvYvcWAQkHGBz+Ni1S4hfT3TH5zdLte5bO91VgPHGgaaDUj7OjdwN6S3JcAYC4EsYP2NTWGuUtU6pfM4+tY062AZ6s4RpOz70A8FmsY2ti/BHKsPywmZDz/9ML56A7eW6waJPY2cb/ffC3w2nJBKS0B2XRL3Y6iDkP/vmoupxX085u2PuI5ib1f0iI81Y0Te7YzG3AGVzmjw1VIUa2bbpgndmGU+eaPhPbPldTQkFzcAL9MI4cP46J3KcU3yCjoUpMP80Pwitv+TfyVYtvjPz0IfUY97xMr1Rx11ZJDMufiBlHyVsssdHyzex2EZMoMCBX4q68j8EXjuGptXL/gmShZ8NTuCQPQ3RThn3ks9PTVmgvygzCFRZy+uW4fKsMCdeYT6jHl0N8OxoSTpXzs0NIvjOQkMkNDOnNPeNgRbRz6TYwcVQODhct/u02nh5AVsth/yd+hS3iyJSEz1OJM/GXE/5j18ltiMYyAlYRQMqLL7wqx+RDElLI+otoCNH+jHaeBij9+ttx9vL7xE/CMZp2sarx255pyJgXpadDPLyTuTVDHSuAUOWO5QsPFEsbskerjuBV6IY3ODFfeJP8VhM3jkx06GxeIc+Vh4Dx8GaBpfCNWgZX1ES7CSWS0Exl2YehGY8AsjwJZJ5vSy1hK6eu/UFvVOHnU7KAr6f0eOYvvJep9XV8QS6yKqBx7WLiUdeurKQb5vquzokidlGNDv4j4moRAB0qY0Bfk+7oQryaLpssiGTUo7VYDvmbSyjPnN8OIt2XhbJ4T6EjfsULwm2OJ2FKzVnsQ4aNz6IEzG21OQfPvP/PiQphmXXwM0R+oMxT6pf3WPDcQSqrt8VbSZA+A1BWDfHHgdI59+FVo0WXf9wQZHGv583ZFKpvG5zjxdDh2chpxH2f6jQecJ+yATnelVNkzwAOl9jS2DlbuN9w+rwC8ToTk0JK7ZSjeq5HHN2z0fgMd6wumue+UKIBhkt4zYERjh1vkRDmoHrTk4DMNJs8PVEDCvFVVcuvJTWIo4BdgU2QSi6IF/dqOOAhQyVBbVTycR3lXWWrOBMQnJ+H65TsE/YBDBXj/BzZ8o+uA6exBAD4BKORqNyestlvAXfJpvXwrG3GXQgBEM8fRiLEEfTKXDMLpi3PUGxVORZ0yj8hovusZ/XQMhlc1ZLM7L+zKOoHR3xzwTyRVlfe5tLBvreorfIhhTGRojdkgfPRBaMKZHs9PvHaKxRdaU/t71ykGhHtB7mHA4L4AMcP4o"
+            },
+            "content-handler.js" : {
+              "name" : "content-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 225,
+                  "length" : 38,
+                  "possible_answer" : "fz4oJ4yVcNOa/OeViNX3s9UmarZKlxX4/UqOHALjZFw205hAhYU4OQJ+jjJsEgoMGfEF2WdWOKMKA0BPenB0cW6p/yZfIXAowufRw80IajyOxpQOji90RTsJfrPdula4vxCV9RJPESgeyJL7R9U7RwDrG8OVg+5d1KjHpHECP/z7RLb9zddzF3FumvN+d11K6Jpc/UQUk1ETgV3q6KfLGD9HVPanpbbGt1FwhTiNeEDzGasmu+GptGBmmCnkkf8BHzJeAM0+Z+K2jzS1OPQFZl+zj4H4Cw9Ic5hfQ+laXZGZLAQK3qv42hZbIg7kQO6ZVfl4atZX3y4Hj/XIbcZ5D+Pm9Q3IBm7ev1Vli4mrnzA=",
+                  "placeholder_text" : "/* TODO - implement handle(request) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy3XrC4DSMmZGXb8ZRIijX0BA0EmK3i/RYaq8DTmqqE4iDaP7tR+sS6t7Oo2Ci4oZj6LR2BCN8BtkfidybfQ3U8ZVhZTQS+5u/YvklYLSCrxRQ=="
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiY/QO3y4hZ5w00xQK57Au09XZ13VA4rnUGJ0CryKUhTRMGYIukDPqMmry2I/WiYclWLlPGWTghghQKNpC1AP1AM9u68Os5XJ7hfIE0WOSGuUp7iJdRwQaxH+v6Ny5PaTGhPTXjHCBJXeAOcJGr+s2lUQjPHWnRczJFP9tOy6xwBs5ef0qtg1KY6Q2RQUr+4e+QZpDHuIFAicnO+y3Z+JhQjbMK7+IZZ4dPrXqE1fG0chIbh0Z378hD0XNIo7nN8Bczoqx/+zdneEn507HyfaaR9Ok+37ByFLHMJ1HqFl/ygqGZofDmHcz5b3emwhixgNdEoLLz4ILutIJPsIMvrWPDz/ds6Yqb38ZgZePFE6KPdZnk+jCmsB3A+0OGIgYXc1l4ddj5yAvDcV05OfYFR8o+0jBuGiv98rLodmu1ip3DeQgxTGXKY8SzG2MExlijIkgpUGTAAjZqS/2BsyowmQ4ZhbI6Tsnwvv85Jp+sh5dw0CrGV94IQhhuf9nzyIUWXsbg/Bp76lz0Sszj6hj5EUFqbOoN6XnAJRyJoSD4vX7ybUdQr/ZKVt2AVT3u/Ose3bbIesuJzn4DuORO3ijxxB/j1zF6dhz66+eH3TxyFrR7fjnWCHuV7Qvop3l/9fQSBRA+/t3KanIsVe1KR1A+ulejdQ=="
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
+            }
+          },
+          "description_text" : "Let's allow our app to serve some static content. For the purposes of this lesson\nyou can use the dummy `files` in `content-handler.js`.\n\nImplement `ContentHandler.handle(request)` so that it returns a 200 status and the file string in the body. \n\n<div class=\"hint\">\n  You can use <code>new URL(request.url)</code> to parse the method, pathname etc from the request.\n</div>\n\n<div class=\"hint\">\n  Don't forget to call <code>super.handle(request)</code> to pass the message on to the next handler\nif the file is not found\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1227846114,
+          "name" : "Api Handler",
+          "files" : {
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiY/QO3y4hZ5w00xQK57Au09XZ13VA4rnUGJ0CryKUhTRMGYIukDPqMmry2I/WiYclWLlPGWTghghQKNpC1AP1AM9u68Os5XJ7hfIE0WOSGuUp7iJdRwQaxH+v6Ny5PaTGhPTXjHCBJXeAOcJGr+s2lUQjPHWnRczJFP9tOy6xwBs5ef0qtg1KY6Q2RQUr+4e+QZpDHuIFAicnO+y3Z+JhQjbMK7+IZZ4dPrXqE1fG0chIbh0Z378hD0XNIo7nN8Bczoqx/+zdneEn507HyfaaR9Ok+37ByFLHMJ1HqFl/ygqGZofDmHcz5b3emwhixgNdEoLLz4ILutIJPsIMvrWPDz/ds6Yqb38ZgZePFE6KPdZnk+jCmsB3A+0OGIgYXc1l4ddj5yAvDcV05OfYFR8o+0jBuGiv98rLodmu1ip3DeQgxTGXKY8SzG2MExlijIkgpUGTAAjZqS/2BsyowmQ4ZhbI6Tsnwvv85Jp+sh5dw0CrGV94IQhhuf9nzyIUWXsbg/Bp76lz0Sszj6hj5EUFqbOoN6XnAJRyJoSD4vX7ybUdQr/ZKVt2AVT3u/Ose3bbIesuJzn4DuORO3ijxxB/j1zF6dhz66+eH3TxyFrR7fjnWCHuV7Qvop3l/9fQSBRA+/t3KanIsVe1KR1A+ulejdQ=="
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "api-handler.js" : {
+              "name" : "api-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 87,
+                  "length" : 38,
+                  "possible_answer" : "fz4oJ4yVcNOa/OeViNX3s9UmarZKlxX4/UqOHALjZFw205hAhYU4OQJ+jjJsEgoMGfEF2WdWOKMKA0BPenB0cW6p/yZfIXAowufRw80IajyOxpQOji90RTsJfrPdula4BoNNLjts25p1LMRKDbh6TwhZys31fGaaD7gooDjvS0e/HVN+9NQuuWYV3ahFtf/AxaxPfnOGw63apVLLkTebF5HJsAP0WgK3S7Vkjl9f6HuatnVVA/I0qsehxDY/7b11twB0OhG1UHQkqfbpcNX/TOR7cvaj3DdsSiTK817bgyK1fIIRu50TWzRjMroDkFTpF7PUpC+0R4kDLZo0v6zd7b/iDtcVHUHU33F+bxgv0o+zR60Von2UK1DSyXSETJyJ/wBdTuIqCOXMgivoizqN6xGZzpiR3rK0DCk4F9515T7UYoyI0CeT/rTgqE5KyKy8QbnpntQNmSn/xBsWzvD6zAJCF9G7PLbvlhQZhVyEYCvyf6l4XHdhsP4EeUAnwUQP0Tj2H4BKproHhAH9r2NxYKLnKIYcUZwe0FdN1Tw4/JYPw5u7FmbXlHCNczY0n2yEpPV+0g3EUhMuNoIKBuShzHSurROB7kKyPw6pSDM6Lu6sI53NlSxD50GUvRsPkZyqvGmCOWMMDFY8K5ux3vKNHlDJ8nTY2hMGHJFhG6JkUUIov0GoRH/15yf+dt+uXCcm",
+                  "placeholder_text" : "/* TODO - implement handle(request) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgGZEXFHlWBDKrxkzHAOUqH3wBkw+jtvLNI+zHrTCeo00+vL3+krGMimnReb6+mZx4qJ6stZr/gnWpkmqKCObepmxCZD23jbbEr01j7EOOwlhE5G4wPvYQrkKHmWeW4j3+0O8Z76h124A9K6KuqWi3eQ=="
+            },
+            "content-handler.js" : {
+              "name" : "content-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy1tjEzS4ufkJieZMbqSFnkyt1qga2AtUhjUQW9zZKZZkMjZLwkpYOdSaKJE/lSFaFOXoKS2A+Q8YSpYiSrUnqyeDuZYWE7ToOj9XNYQEA5euIw3S0ud0Cp+phrLOdz1n1AO27b3XRj+mlLRAl8Y17jPg7OjPACpxiv8Z1ikHyzoQZU381UwsSuWckoIiEglD7p9+Aiuxoq+TvJr0Vtsw0inIZJ6soGhFUQrIPdOqZgBF4qOt5DmxReNpUCQCGs1F9iP4l3ZCkaW8ARFJo3F+PuD8dGos8x2XbzciG91/ogYMX0HZR5dlOHJosKpfgRAZdw/3ItOFeCog+5dk2qPPV0SyG5+s1oVl+Dopmd52LGaA83Y+3gwH35hhJMMkutnEctgkVLM3SSF1xIXQX+8H88b"
+            }
+          },
+          "description_text" : "Implement a simple API handler\n\n## `GET /api/hello`\n- Provide a greeting using the `name` parameter:\n\n  `{ statusCode: 200, body: 'Hello World!' }`\n\n- If `name` parameter is not provided - **throw**:\n\n  `{ status: 400, body: 'name is required' }`\n\n- `POST` request is not supported - **throw**:\n\n  `{ statusCode: 405, body: 'Method Not Allowed' }`\n\n<div class=\"hint\">\n  You can use <code>new URL(request.url)</code> to parse the method, pathname etc from the request.\n</div>\n\n<div class=\"hint\">\n  You can use <code>url.searchParams.get('name')</code> to extract the `name` parameter\n</div>\n\n<div class=\"hint\">\n  Don't forget to call <code>super.handle(request)</code> to pass the message on to the next handler\nif the file is not found\n</div>\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 760544742,
+          "name" : "Auth Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "auth-handler.js" : {
+              "name" : "auth-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 92,
+                  "length" : 38,
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvd+/bIo9c14pLt0WPKFDQshHSbCCu34eUM5oM2lAcHX+K2cEdwzJqodzZhE24E27jNNHqM3gvPs0dEkqQzS8ksDzJZcA9cLOKk/jy0w/tkUYlMtQDMbIOJj/CVirzkaQYikjFfZB0iF3FhLwr3UcMaaMejUQEkJon6qPRX1AHnVSMTBpIvDs9WYaDDS88dpFx9zk201X7waZMUoxX2KyuJR8CXGXIjsl/q6qIYOLpSvB0hiWX8tLZXQI6bVr8euW0rdFcQAqmsqunuf/vRLJJYh9nloWGyVfA8l47JISTFtfFtFgX5fTCxLy/W0MNPq0zo4QQI3m3eYY1ceZG5ERUsl7mtHTosK/qVNT2D+cCa+VDcitu5AeFJAtkpbYyt0wamp2foDqxGzs+KW/qfVPCXAQGzufDGlZJ8hVR5y/iPiLk8qJDMr13+DhFMsVR4CQlM3zWxbazlVMtgZkBlPkQKsHD0NYNxDtxaUZkPUy9RPQYakpevF9maKOaJJpMHnFh/cQsbQjXicQ7kqykmmFhRWft/GF5a5wA3BEYNzn5f5bB8VOoN44EU2IIJLkFXFIf2SAAlLH71BEhgTItoDrtCz31qdCvuMYqhUJGfvsj27FCoQ77TJq6mH5NaFx0ym4CuiMHLt+Apo4n2NUWkkdjOyGHRaMMleObYJbZo7XHG0U5ifPVnN+Tcx04/LIJvSDJu5+ewba3nPXu3YBfy2eccwpsNROGlPUQfSQ8EONu5pPDUbVPYMw5K+7GzSXvOuUSaVD6t2iqdQFInmph57G9IZVu32KRqrNN2oXAnIdFiIzAnIb2vAb4FXP9S9QT0s9qPlkpcCAGSjhg9yHYmU5OuH",
+                  "placeholder_text" : "/* TODO - implement handle(request) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgTthmoOOIs/I4Gr5XOFNUCoeQpPiqR7JY0kZqijsblpyWwJb2y1JcVOGSUDzeVhWn1xy8M2+mdb13EDaA8BBH/Zvg3OHgJXPyUIYA5diNjcT3cf5ua/pLgfMn1IQ1gGzqN3aTk0E2kOaEex2zjOIriCsNHLSPZytYJFleX/g6SPTbUejGZxeBW6raTawvIu3mgEW4W4liXuaCcAKFf8TAw4TBHabyK+mHlyvagYK2JxC37jinIOnw/VwwOmbs9dXZAH84D5+4YEcBUt6tGxJ1y+tuX63yqdtVVAWOJJ9mbX7aytHmP8tJLXIc8hhwZGJFJTCb0WVjWEzAZ3bTwfe+sQHe080ldQyQpmGwfCNUQc/hBmU6hrF1R3LIAha3Erc9TIfbo6kdS1zZVQdC5ueD+NQgM85X5jKMdRyjw+gBd0k3NFjJi51bNQuAn1hd3C02xhl5y0UbhA9TViWkzMwZn7w0q0p25zLVf8QIGWTXIcSjfD30iO6w6RMFhFP+mlrEp1MYzjGHwgs4++q54Y6L6BnDvKcNx1HmXLVCWLSJ0rfQldAM4X6HOisw9xN60T7HcLklekjBBEvLoDTjkQBhzw=="
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiYd8epo2l/20BDuGv58C2D64cgqnr5OtvOxSr5MfDoSldM5q52dxJMifQOsCwkencHxO33TnII+JyrKa6KW0ZJruzRhto1es1d4kwn3vfQ+PDFeDdmvsz/LQwgwqqOD0449P66/WBJOhg9AgzFn89GFuB58IJPlFw+7VOiOF+ScfZnCzjmHtgwYw9zCvSd8c7s/0axS7wfUWzdDHKHcSWpklHsezLmg2mG5gEaatEy+v8niUpCRf+4m3r2zWQEh0tP1VkWh3J8r/GgRLqs6ehmZRx1jijytI9e6CgMdM9CWcbWXOB9Nh9QOXWRSWIIah3v4QRF7zY5VulFJZGUuUiSprm6hj2X6CxWnOdqir6SSrBGxdO9iGaK+DcOZIqjvbcFYAjKrQqJQeTFJcY8Vpu8GAPVloRXGE69DhY/F/GTTHLQNNembrL76R7U7b2Y/kxaHUfWTPV8n+rDTYcF7eusiJ9paPttQDGb97LaEaTKs1g18eYXLSEonJn0/QzihbbbpSTmbElNZ+BT8jVPyOMAyL8we3+xOORZCohS4KkTQh+M+7Awm+pg9WxJRDhL/A7x"
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUU1O6pJjLuiBGv09WDqR4wTsWkXCSKyi7XQhZZIvbBeg1ukOh/N/6BiS4w6pwM9kfZ+aIJWRGcbFLctUn20F2Jh+SuugZjBlf241gPmBoR9T48g/PI4mhuu/etdQ0QaviW2hFgxoV3f5nC1d6ChG3JW5uDkXIZ5I9SqCzFSvJA/DIUY6Tl9Bg7we73xckUnY1xedsX4KxDnEPfeVPxfiJvT"
+            },
+            "api-handler.js" : {
+              "name" : "api-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgGZEXFHlWBDKrxkzHAOUqH3wBkw+jtvLNI+zHrTCeo03/RsN92Vi6hWWCWCQ0ph4ygPQf8KOxmWpjBt3jtfv8Pw0uUqpVWOFe8XFf/1Bu4l0Dfv3Q5CVlxa+iS2rdF11e/rRNaN6Bu4oIlQR4MpEdqWchNFMVc8wg7pdz8rkakxZGSxOFhw4+9ChVu7hrvaxJLCemXc11lLuVf2yrrjTx9ImDs5/N6Tjes/nVbyd4srOMqloxBenNnX2DumAAeNYggDzdIv1ECQ85aLICEemA9pJQqwnDE02+GXAdxTY+hu2VbCQVBEyGzKFgt5OWMn/fs/tu7ZGG2zCJrAwbNvjpdZpA1Rq8Vawjnbqp53mHaBBW2t/1Rcnu9uMIf5d8Kc/2TBMEbAKQLyADpnPipUXcLBi7N8mUzcHUQYGcIR78G2knewEAtRTokf7TbFpuKO2eu9xMoUUhvFXj88FVJaCKrrxVgJEr46YmXjeSUqtEFfinxMNJiVDRrGcD2JNIj4Xf8NwnOE8PnO6DwQT0Vz4X7ReW3XIOWO6OCZLEUtlCZX4a0zSeak7toqJkXqcEiSb/dsgzY3O8X+kitYq76bcw9V9UaT8v/FyccHT9EyVp6r/oR6StYg0o+EMwNPSODyTVUuyoxIJvRJyoh912ayu04trGC95r76X/80g31KngydCjfNtF6WJoVHMOvieqtQbPzfHJLGCjAWrjLEDNf41Dy2xSFOLyXBHRInPthpTEoUjF1qhLtngrMUBp1y+6/F8o40lGZGbIAz6aezZKFQV8LmlBdjzHT0gmHDPX+fxzS6Q="
+            }
+          },
+          "description_text" : "Some of the APIs should only be accessible to authorized users.\n\nImplement `handle(request)` so that it throws `Unauthorized` if unauthorized users\nattempt to access `/api` endpoints other than those listed below.\n\n## POST /api/auth/login\nReturns `{ status: 200, body: 'OK' }`\n\n## POST /api/auth/sign-up\nReturns `{ status: 200, body: 'OK' }`\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 801276566,
+          "name" : "Error Handler",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "error-handler.js" : {
+              "name" : "error-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 93,
+                  "length" : 38,
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvd+/bIo9c14pLt0WPKFDQshMsGISWXo++AE8JnE1tRmKA/0x5LyM5fVPM557qQ31a1v3vlwvo2A+j1DLGiOJZK+B4f/6qsRLeTmslxseXqwylXONzK2FrrAnhYEl/0EBpmy6SmBnh1R9wJjyAVXruAHUYx+34q2d2vys7KUtIJfpxLhd037zT0ZPriBW4GoLf2ky1EWEPaKysuMplRe0j3x5UeYhezyPy73SzR620MLxA/hMzkn7L6RQHggm1j09MpLypyOYh7Me9tbt8EMBLYmo7FccbQeNQ+fAaEkDnQv0/DrN0Ny6BiU39lcyaLK+2p3fmdkepc8r3HcFSZOz78wuzAJ06n62NKlVkvZ9E2xWwRc58W519NLnjz/tKf1qX/E/00yEOccnIE5n7twaaw3cPIBToCBgNm0U/+n+rOP5pEK2kFrCPHdNuXxLOLKwopaPKzi3KxIxzynSF7Ml6G81NlfnhoM3cNVyLlTobpeab3CiZc3/D4lZ31Iyl3UIXdHLtS/r3TZAIoLaCJ4HfXl8H86OWfYld7/R6BLz9kxMvzoYoenHmKhermD29Eg/o81Ct01shDxUILkZnXN0YkKCk11MODtfnO3jEKFUU+cTy1DmHgGQEqd6lHXE/kQgBTTblHzkWHZEs1mUs0NdUI8gIDeSpED4DS4cB2hKVK//OymkGUOz9i6DurqHsaKqfDPGSNgjxKMs1pE98tL/ga1Ry55nxHWtHQRwlJ7jH/IsIXcz/m7cpgr8BQ7S+leFLro9chw7M00q4mmc+Eyej2iIB/Pqvqs2j1Z6MkXVkXEAXZ5i/Ea22w7znKFiwNVmBkvDMRr75EHGv6Bl3QrNCeK",
+                  "placeholder_text" : "/* TODO - implement handle(request) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAggWh565DY1/EY4GTDQfUd7+3twNlYYfe8h9opL+GMWkAJVmGP5Q3Zp9k/2+SOrc2Fi8Z1GhHVpOz65U0QPB6xWeghESO9p4iJcO7MTp9Y24eiS374VNKYqfErkQY9e3KSAxy1anTcvUt6PSjHL2aKR4h5RCAEimK/AfE7SEuFY3A="
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUU1O6pJjLuiBGv09WDqR4wTsWkXCSKyi7XQhZZIvbBeg1ukOh/N/6BiS4w6pwM9kfZ+aIJWRGcbFLctUn20F2Jh+SuugZjBlf241gPmBoR9T48g/PI4mhuu/etdQ0QaviW2hFgxoV3f5nC1d6ChG3JW5uDkXIZ5I9SqCzFSvJA/DIUY6Tl9Bg7we73xckUnY1xedsX4KxDnEPfeVPxfiJvT"
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiYd8epo2l/20BDuGv58C2D64cgqnr5OtvOxSr5MfDoSldM5q52dxJMifQOsCwkencHxO33TnII+JyrKa6KW0ZJruzRhto1es1d4kwn3vfQ+PDFeDdmvsz/LQwgwqqOD0449P66/WBJOhg9AgzFn89GFuB58IJPlFw+7VOiOF+ScfZnCzjmHtgwYw9zCvSd8c7s/0axS7wfUWzdDHKHcSWpklHsezLmg2mG5gEaatEy+v8niUpCRf+4m3r2zWQEh0tP1VkWh3J8r/GgRLqs6ehmZRx1jijytI9e6CgMdM9CWcbWXOB9Nh9QOXWRSWIIah3v4QRF7zY5VulFJZGUuUiSprm6hj2X6CxWnOdqir6SSrBGxdO9iGaK+DcOZIqjvbcFYAjKrQqJQeTFJcY8Vpu8GAPVloRXGE69DhY/F/GTTHLQNNembrL76R7U7b2Y/kxaHUfWTPV8n+rDTYcF7eusiJ9paPttQDGb97LaEaTKs1g18eYXLSEonJn0/QzihbbbpSTmbElNZ+BT8jVPyOMAyL8we3+xOORZCohS4KkTQh+M+7Awm+pg9WxJRDhL/A7x"
+            },
+            "content-handler.js" : {
+              "name" : "content-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy1tjEzS4ufkJieZMbqSFnkyt1qga2AtUhjUQW9zZKZZkMjZLwkpYOdSaKJE/lSFaFOXoKS2A+Q8YSpYiSrUnqyeDuZYWE7ToOj9XNYQEA5euIw3S0ud0Cp+phrLOdz1n1AO27b3XRj+mlLRAl8Y17jPg7OjPACpxiv8Z1ikHyzoQZU381UwsSuWckoIiEglD7p9+Aiuxoq+TvJr0Vtsw0inIZJ6soGhFUQrIPdOqZgBF4qOt5DmxReNpUCQCGs1F9iP4l3ZCkaW8ARFJo3F+PuD8dGos8x2XbzciG91/ogYMX0HZR5dlOHJosKpfgRAZdw/3ItOFeCog+5dk2qPPV0SyG5+s1oVl+Dopmd52LGaA83Y+3gwH35hhJMMkutnEctgkVLM3SSF1xIXQX+8H88b"
+            },
+            "auth-handler.js" : {
+              "name" : "auth-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgTthmoOOIs/I4Gr5XOFNUCoeQpPiqR7JY0kZqijsblpwqcjCP5PcPxgUkdD7y9Q6E9uR+UxrBpKsJOXFp92ouuIxy3IcA0iWpktjfHqgg6z3cks6IisxOoIINgkZXHJ/rF0UHT1xg/L9YjpCUC6gMWLD94LcRrHQwLbIFN4+NVIDhDn8Pyses8duW3fKI7nHio1y7ZP1VPDixELE6HEXLiRoh5apGc0vJEEro2oo/MtxKy2GxxNyohyZcaDwMUelMYSGc/k6KHFa3s3CYnyc1PniArzn2jqWTMYPLZ4iQdA1WZG4q2/cBSju1VVNIkq/kzLBWbwfP2OPScVsYg26DrBMTdq2QezhuBIv5rikEOTYxKz8Q5Vzx8uOEAn9wQmzcPKDgF91yMfvSECDoPzfuHU2qrMejUxnC17eUdaLw5Lwvg7WePJpyCTZNXxBe5dfNCF8gnB8A28rEG9ZqrKI4qubRrG4CuEXMDjiZsI3T9Thj62TY/anzzFz8IoXB5mLadTnYU6MuJo5mPJ/UgBcygBMIXXSQi238Uv85J2wD3hb3vl8Tfgpi/EgWNKsOSacGl8NRO6n0GpTndlDW2e4TE6XlYU/YexE8+jFQOWDbfiSHHkz1k+8wJCQ+15GeVLY7ODiQiYbrwICtH9KoAapu1XBVBcb2IuRI3XoGieXdiEHrbVlyqqdQh4JuAavxgw5xHcum2+8G5kc0BTJgpiklyBNXf5C5zjR5kwpkY/oInA5sWstOPmck8Yhct7u915fb0h3c0WKQTO1AVna41af0NzA1OThlxq6TAwHwnlj0o/b/dIV3D30b+5ImSpaeNqs/TOEOBCU7OOBNl5o62m2pQyDNizUraoG0nl0bdQFtVRnxbGphKvF+41UNpyxA766aRIpoZa2bdpSlnBJKGM2wCYxP2V/e2kGCcI2XSvRwL5CUtSW9mlNVAe0cHOpxaIz6syHHBrfS1iMMemcAXEOVt0OkFIyr5IuPJLGmRkBubc/7xuOI/lYy4WzKdH2LceS0D4UEz5S1CtKwykwOvimew03P4PPfR7jGf/0qnk/v3UrPJQ8SaXuoyidbXOiAAD6shZ2wd3McRc3DrS/NmEWxXLwdDGZvPPg/D14EZEK4XO9VEP94w43DV8+WNR/Zv0Qk7/y8iD2oDp4ktSaiUkMtQ6gIuaKhrxQWr9uF6XXHl05ENPC9bj7BpH+k7TPbl1AOrTgQuDSlAyw/bn7uSC4bpQ=="
+            }
+          },
+          "description_text" : "The application needs an error handler that will sit at the root of our chain \nand handle various error scenarios:\n\n- If the chain throws 'Unauthorized', respond with `{ status: 401, body: 'Unauthorized' }`\n- If the chain return null, respond with `{ status: 404, body: 'Not Found' }`\n- If the chain throws something that contains a `status` field, respond with that error.\n- For any other exceptions, respond with `{ status: 500, body: 'Internal Server Error' }`\n- Otherwise, return the response from the chain.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 436510842,
+          "name" : "Putting it Together",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 323,
+                  "length" : 68,
+                  "possible_answer" : "YmkLIarKFx8BSqWJSwRu0wnTR5dI/DTR6oqG8EUKRBM=",
+                  "placeholder_text" : "/* TODO use the chain of responsibility to respond to the request */"
+                },
+                {
+                  "offset" : 431,
+                  "length" : 48,
+                  "possible_answer" : "jXRsS2Vg9UpqrL9GZ3xpO9bU8qkbljKgVn6x4i/Dk5+EsEe8vo68hV/v2rhlxdaLC0ZRdSISSMJ16j11fE2maPctjG/PE3iPUF+vvl5ERqg6mYmQLaKBkeQ1hDfUhtoKwjbCQHOKpx9wYJ47kiYDb4rtXVCPqRHPghiQhVmelroylk+3Lbia2DvzEFLTGmHZmWwCDG9Lij+tJ6hj/hH3q1HyNGu9RW6Y0SqwU/2jSWQQp7YwEImFcZEkY6dxQV2JZ8qlmZeAelbgIU8VnGVz9JyDTQ2HW7luGBZHBgbyodV6sXqCuIKOVHKXHOwHKQQrANoh4ONnDeqoNzhDry3lwhWNXQAicDLIJBqnB3i3VpqLb2LXkAFzYjds4ZAPGIakhZ5+PqDTCbP6xhybi3fs+nLirgVK7uqEdJJJGxUKjvgUc7L8JmBFDMdiRMnSrChQ",
+                  "placeholder_text" : "/* TODO - compose the chain of responsibility */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "pT8sXTxQbB+FVFpx6lUAF3a5fBiz5fOHIH1w0tIVqZsfyt+WFQckNqsmWpH2VCkpxxY+JbQsd3JKepTAF5nNgEJN5ocPLdj8niUE4bgMnOlOTpVKE2DW9XgD2g/QK4LXPdycAwv6qIaTss6ApdlaPWyZh6KMxyPhTXOpv9QYZOLbIlSXiUK8ViBDA2CbfAlnCRNvRQ8ROWbsIJNXqG2EyeBcriaZ4ZY2LBz8Zqh/lPgJGzP0sXy1W3KtWMERp1Cjy8XL+ZUY+uOfRrMbVZp123y4URBEF5Kw2aWp+p0zkPX2ivQidWCi0olTU+lcNlhshuaKZkp87xVqqTNRaQG+AXXLBMGoVafNB0eAkcx6zmCOQu+wwE6NkGOswn2NOvvYDbdUKJG6l0KmB3A4aX2kuvM3eej49Puc3iojKK+LS32b4cD+yZOODcsLQMW+IyZFG69aBGfLF6EpleSyIBLPIZ0XHx5h568MEZEslQh71amdwX76CFrrD8bXzi5mOg5gl6P7/rc6nJJnDyOgo87o8NDVNDcFjK7usn8TF0rZXoNNXc+e6WnOavHKpIAGFKsIn0v4g1796IFoXCQEhSS3bgjpkDS9bqUlcUwF0sDswT8Mmqpr5nzN2jWcaFuX6WWEFg4vfw16pSeLmNgPluqkXV8eZ5zkpO6l+HtvG2htiz0="
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "pbPrqYx1xPFXpAc6Td7yEYL4pI93FjO94wu9DwbKj+vz6H4tZrrkMMZmhDgmm1I+wVEmON2FmrTafNnNEzZNkmEd3wyKrt/hXfcezJus9D+LwBe/qxcAeP4ekyg++j84TNlKI0iakZI6f45XTnNpBLWqQXHw3BpVPZ3N6b5DzIDG0ewnY3I+GEOGR1iZi65WTVyfL8+R8Rda2HTRAWy0N/Fqm3wtsErhE0MLlDL8xw3qF1fvGQX80Ms+VnOExTqZiGt1R/1JG7wj8MhpD9ZLGB14zhg4GIMqYDn1gK6ku6a5JSUSB3d18QKM6Gs8KtkPebAhegF/fPURn5a/DFiq0hZZLC1t47JKGCFmnIK6Fu9RVk4mCNgj8Vrv5oZDikca2ttxjgNinpUB96F1JWUFDnzGnEcUsm0J4uD73pMjx+qRwxr0pHjuoNq1/8tVeASoTFQOrC2BjSEw5DERkLGvUtJwg4E39VkHADEmlZsHcSmqhL9Z9F7JnRB8tOWbtygoScpuoOmWahy8CShJoPJ+dFJA0mXzZucTQ3djuKMFqIf5AkoAbhA5hV3qrP7l2QJpP56O9z9qBu9YhIyfOTor/mEzY0AjtjSCZnSLJDx5UM0LFlaRZLauAUqwDaEVWYxj60oSD0Wu1LQmRYzDxTGTp9PGg7cBQL1DH7VE+BQgZnZ0GctI5Fn6dwgpgjL5CMV6QDkFuBZvftLifYrFWk9hb/bbEutTerZh1ygwK447FuD3tMTYhZ3PAMzrP5hVQGHyeB8hgQpkxPR9CG3NGih39QegoROFhLBzAdogMLfUm2xFGkYGHhx1XvnV8ITeWYHFdjIhEvdwcs4zq3sYuLluFV6I4mpeaWT5yBBcEzmrVrN1XOLqadXWUJlURVhHhnJtzt5JqvwLg4UdfnOdnaLvkfAgfD0cwV/Zx7drOptLJy4TNq7xbnvHjjVBBz05kOLhVrK3bngKe4Ng91Cdj3IgShQz7CEZs2M/+YX8Sd/vgA7PoZnbsPIZQeiM424x7SaqLEappWVgO1qwWdEBusZmhCQZXcKHDqHYriOyVIhDMoX4DKSzI2R9rKRdPNZGFRShn4FD+To6stWbn7inplzwFPZtX0jS2du8Nujshi3PRyJyqaXxQ26uAoWnQ4l5Om4h//u9Fs0HLy1MniBPl73cWiETKwODM/H1PlFxYHLkvgdQC0LetCL1OGgYr9aKUdpw5gPFui/Taqu264I8E+BrqTONZrOdvWzojhGHZt6yZ+fK73z3NfidKNb/qS+h4PFnKPFHBvK+CbJeh9YmiOx9B6bjeGE73F0ryCesjEty6W3imv1r+80X58lyDfDFT65aGEgIZrN2auqF4CZdWjhL5GO6rBzTiXHiDacq84UzmJ1OaIjc1yBLXjmg31w2aPExXFgc/c/JUgqoVrKeaqT/kA4yZGChomyGh5Ctq1NQznFvfmayq4paEZcVtov6KONsgO0UoiDMF7uWWaEyZlnN11tKE+JPHyd79nmaO4NmUO48n6diAfxhYnqUhUg+9U00dIDnOqz5ulRg0Uo89UV/MK00oErdW4kBdhZ9jOQKy89ihkAT7MY+orBB1MAlUNywiMdvAsgfP3jd+7MWzXA/B1xWVC8Ch5aer9xfagobcR6Wu2r45K1DLWR1NNz+jgp8OeIClIh1RKIBpzY1Z0ByxJ4k83H9grp8CkY+887GA1/3usrSnNOkk98nhxQMmi34Oppr6TRqvBU/ph+4P+5Ln6Ayh1OTX/8fAKqL6zMETuyK0VUM1/PSdAs9fAppWIZRTZPSg5YIHagOlfxaRqvl5Iwghjevs6mApabMOaK+X7AS51qHwabGBLehQQwNCGR9"
+            },
+            "api-handler.js" : {
+              "name" : "api-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 89,
+                  "length" : 22,
+                  "dependency" : {
+                    "lesson" : "chain-of-responsibility",
+                    "task" : "Api Handler",
+                    "file" : "api-handler.js",
+                    "placeholder" : 0,
+                    "is_visible" : false
+                  },
+                  "possible_answer" : "bWR48ILtlyJdkdNbATv2Pfln+qGxcyp65vg1yUSzVqV7IM5SPyoja0mFzL4ddeCY4SxHgg90Tq+2hzeJoKT6ahIcAtOHfyDTNonK9/LpOAXyQN9VrhHloB7ZPOVrhg+GKYqP5AVHCQbcxnOlAM4gXcg/EDesafLw1xnkUqGbwzB2MGT25Vb+WDFqH0iEG9DDMn37RA2ILx641UzH6ZMIcSNcv9DKedmOxsoEPO93SX/aIm7/FXYNFdquv8IbFyHmEFnWTdXmoUi9H3HkmEtjKewixLIo5IhjL7bq4rnp9T33QSuBsX1213P7qkd8IWg5cR3xOXOJh8Nm9V+FwfjeGIDPBgLrSjN6PwF87ORg93LfWkhdgD6tkEPUvnO6YrlKzeWxi6/vQu3WkuE6m2H5hgnRlp5kMyD9Ms3BLzFT/V/2zOLU11+kHq5ICkDrZBBDa4ve+59rmHWcieTZnozu7yZaHXENWJM9Nis2Hg+hS+PQ7tuEThpuh5xHAvyh1t5In00eFUEHYHO+dfOKVJuWEDN+P/QoB6ECAfcxtsvJD4FFsAqGi9GdVMrA/baLXYkuxW426ikYc34ECHrUACPZZnPp40ZfleHKKvXGMvmw9gzjFsTPqePvoX3kGG52CJxLLl7yC0B/QxKy91cO4HE0sMf+1nqGRRxqoRw29PkudcqJu/EeUq9qbcy0NOJmHMdq",
+                  "placeholder_text" : "/* Your API handler */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgGZEXFHlWBDKrxkzHAOUqH3wBkw+jtvLNI+zHrTCeo00DFIrijmPF0mtQVF/Jb7uCANlIo5f/2QN1SoyXOSlyeim2DMb3wOMG9KKgW4IeMABuTzCe0CztaixGAuq7ewXQQ0vqVaf3u1SzoRUVlpca8A=="
+            },
+            "auth-handler.js" : {
+              "name" : "auth-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 92,
+                  "length" : 23,
+                  "dependency" : {
+                    "lesson" : "chain-of-responsibility",
+                    "task" : "Auth Handler",
+                    "file" : "auth-handler.js",
+                    "placeholder" : 0,
+                    "is_visible" : false
+                  },
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvd+/bIo9c14pLt0WPKFDQshHSbCCu34eUM5oM2lAcHX+K2cEdwzJqodzZhE24E27jNNHqM3gvPs0dEkqQzS8ksDzJZcA9cLOKk/jy0w/tkUYlMtQDMbIOJj/CVirzkaQYikjFfZB0iF3FhLwr3UcMaaMejUQEkJon6qPRX1AHnVSMTBpIvDs9WYaDDS88dpFx9zk201X7waZMUoxX2KyuJR8CXGXIjsl/q6qIYOLpSvB0hiWX8tLZXQI6bVr8euW0rdFcQAqmsqunuf/vRLJJYh9nloWGyVfA8l47JISTFtfFtFgX5fTCxLy/W0MNPq0zo4QQI3m3eYY1ceZG5ERUsl7mtHTosK/qVNT2D+cCa+VDcitu5AeFJAtkpbYyt0wamp2foDqxGzs+KW/qfVPCXAQGzufDGlZJ8hVR5y/iPiLk8qJDMr13+DhFMsVR4CQlM3zWxbazlVMtgZkBlPkQKsHD0NYNxDtxaUZkPUy9RPQYakpevF9maKOaJJpMHnFh/cQsbQjXicQ7kqykmmFhRWft/GF5a5wA3BEYNzn5f5bB8VOoN44EU2IIJLkFXFIf2SAAlLH71BEhgTItoDrtCz31qdCvuMYqhUJGfvsj27FCoQ77TJq6mH5NaFx0ym4CuiMHLt+Apo4n2NUWkkdjOyGHRaMMleObYJbZo7XHG0U5ifPVnN+Tcx04/LIJvSDJu5+ewba3nPXu3YBfy2eccwpsNROGlPUQfSQ8EONu5pPDUbVPYMw5K+7GzSXvOuUSaQbf6P8InOUOGQM8vOPP3iSxqWlVvpQmAEaC73/pTFz+9MOHCALJfZCgHK+ib9KszlL2mkG2rTPeG3Xe8ewphK",
+                  "placeholder_text" : "/* Your Auth handler */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgTthmoOOIs/I4Gr5XOFNUCoeQpPiqR7JY0kZqijsblpyKsPW6dnYkaIcGtq6MipxRu149kLNt/DXP2Eb69CIHSoEZQ81jRTIZrIgBhPQ9/PevXz46xViDrdBVJYYPcr30CEKAas1XD229wEJkBS5bnCDbR8ZNAqqk1JLy8Tbafb6vQ+Pdam9DTCxysQi6lfum4ejH/QAAvf044JYNqxvQ5yMD1OdVSZ/PBQ04CaiHJPVUN5tf+3M0NZ5cFtj429Zl65TSGEbfuIELrWoh0snYDaSPK3CETaWs0yzTB0nVhuhVHstjSMqTRjFD2a4hauW5D2B9jq8+j9CdfFQfFpu7kN94gSTCylax8Lf3LOPyB9PinyBV7nMVWuo8ylt7lmGlEQxlBdKyrexDgf0MSrUJdAK/e4Bk/YDG+alfR0RtJZqV0T94taUUrUj4PFqPvvXPguATe4jW5laXgZx9ncohTi9D36dg/F2rEatUBlKy4ZRkT9iEF8u4DwxUGnNalrPTYJVAdQ2JpWn9ob7pTMkfFmz9cSpeOL7OEHqwNM/3WwOOrgdNr3WlplTA/NIXvaaL"
+            },
+            "base-handler.js" : {
+              "name" : "base-handler.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "ARfbNR6lG5T+2+1oracHq5kswpAVOqAB1U/sP2mBdOY7YKdGwAJ9zGPuEjOBYdzGJaTegTdn/rh9St359C+Aa296yoVhZdPi5s1Z9y6dzCMqEcCtMfmvpzuoXwR6+IiY/QO3y4hZ5w00xQK57Au09XZ13VA4rnUGJ0CryKUhTRMGYIukDPqMmry2I/WiYclWLlPGWTghghQKNpC1AP1AM9u68Os5XJ7hfIE0WOSGuUp7iJdRwQaxH+v6Ny5PaTGhPTXjHCBJXeAOcJGr+s2lUQjPHWnRczJFP9tOy6xwBs5ef0qtg1KY6Q2RQUr+4e+QZpDHuIFAicnO+y3Z+JhQjbMK7+IZZ4dPrXqE1fG0chIbh0Z378hD0XNIo7nN8Bczoqx/+zdneEn507HyfaaR9Ok+37ByFLHMJ1HqFl/ygqGZofDmHcz5b3emwhixgNdEoLLz4ILutIJPsIMvrWPDz/ds6Yqb38ZgZePFE6KPdZnk+jCmsB3A+0OGIgYXc1l4ddj5yAvDcV05OfYFR8o+0jBuGiv98rLodmu1ip3DeQgxTGXKY8SzG2MExlijIkgpUGTAAjZqS/2BsyowmQ4ZhbI6Tsnwvv85Jp+sh5dw0CrGV94IQhhuf9nzyIUWXsbg/Bp76lz0Sszj6hj5EUFqbOoN6XnAJRyJoSD4vX7ybUdQr/ZKVt2AVT3u/Ose3bbIesuJzn4DuORO3ijxxB/j1zF6dhz66+eH3TxyFrR7fjnWCHuV7Qvop3l/9fQSBRA+/t3KanIsVe1KR1A+ulejdQ=="
+            },
+            "content-handler.js" : {
+              "name" : "content-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 227,
+                  "length" : 26,
+                  "dependency" : {
+                    "lesson" : "chain-of-responsibility",
+                    "task" : "Content Handler",
+                    "file" : "content-handler.js",
+                    "placeholder" : 0,
+                    "is_visible" : false
+                  },
+                  "possible_answer" : "bWR48ILtlyJdkdNbATv2Pfln+qGxcyp65vg1yUSzVqV7IM5SPyoja0mFzL4ddeCY4SxHgg90Tq+2hzeJoKT6ahIcAtOHfyDTNonK9/LpOAXyQN9VrhHloB7ZPOVrhg+Gd++38G2z8V0/8LMK0uloow+EuWg2Gz5V3j1nBdkMsQuf1QqXPTNTJOliNQNkGkBTicBw3IcC9dTt6GLjXqYkti/7NHjjBM2GPWb+kTnmwqGl+4DILpq63w7XRFy5KOkc/gVwTyYzcFINR47vEPiCoQcoc0IFoB2hpllkzpODD9ozgCjPTm1XaGkY3PZAGAYUee551mcD+FlLT2uY8QYbGUl3rWEBQKkJZcZuhJXtIkQ=",
+                  "placeholder_text" : "/* Your Content handler */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy3+9dnaR5K9GlZrd0Iq9FWWRqLe5Ia78RJ/+sPhUv6F6P5+Wp6CEy1pttt7cTNM7e667CLk+CWfwtom8FXQMrXFxD/x0rgpv90vJWo94YTFDA=="
+            },
+            "error-handler.js" : {
+              "name" : "error-handler.js",
+              "placeholders" : [
+                {
+                  "offset" : 93,
+                  "length" : 24,
+                  "dependency" : {
+                    "lesson" : "chain-of-responsibility",
+                    "task" : "Error Handler",
+                    "file" : "error-handler.js",
+                    "placeholder" : 0,
+                    "is_visible" : false
+                  },
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvd+/bIo9c14pLt0WPKFDQshMsGISWXo++AE8JnE1tRmKA/0x5LyM5fVPM557qQ31a1v3vlwvo2A+j1DLGiOJZK+B4f/6qsRLeTmslxseXqwylXONzK2FrrAnhYEl/0EBpmy6SmBnh1R9wJjyAVXruAHUYx+34q2d2vys7KUtIJfpxLhd037zT0ZPriBW4GoLf2ky1EWEPaKysuMplRe0j3x5UeYhezyPy73SzR620MLxA/hMzkn7L6RQHggm1j09MpLypyOYh7Me9tbt8EMBLYmo7FccbQeNQ+fAaEkDnQv0/DrN0Ny6BiU39lcyaLK+2p3fmdkepc8r3HcFSZOz78wuzAJ06n62NKlVkvZ9E2xWwRc58W519NLnjz/tKf1qX/E/00yEOccnIE5n7twaaw3cPIBToCBgNm0U/+n+rOP5pEK2kFrCPHdNuXxLOLKwopaPKzi3KxIxzynSF7Ml6G81NlfnhoM3cNVyLlTobpeab3CiZc3/D4lZ31Iyl3UIXdHLtS/r3TZAIoLaCJ4HfXl8H86OWfYld7/R6BLz9kxMvzoYoenHmKhermD29Eg/o81Ct01shDxUILkZnXN0YkKCk11MODtfnO3jEKFUU+cTy1DmHgGQEqd6lHXE/kQgBTTblHzkWHZEs1mUs0NdUI8gIDeSpED4DS4cB2hKVK//OymkGUOz9i6DurqHsaKqfDPGSNgjxKMs1pE98tL/ga1Ry55nxHWtHQRwlJ7jH/IsIXcz/m7cpgr8BQ7S+leFLro9chw7M00q4mmc+Eyej2iIB/Pqvqs2j1Z6MkXVkXEAXZ5i/Ea22w7znKFiwNVmBkvDMRr75EHGv6Bl3QrNCeK",
+                  "placeholder_text" : "/* Your Error handler */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAggWh565DY1/EY4GTDQfUd7+3twNlYYfe8h9opL+GMWkAJVmGP5Q3Zp9k/2+SOrc2FDOd8s1DXBzkybWNvgk/LJk2Gh3c9nR3kotIEgz3xwUd1r6iCWZZ6pQZIP3nkUOVbMxu2lEgswwgdPD4hgxDGPQ=="
+            },
+            "handler.js" : {
+              "name" : "handler.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
+            }
+          },
+          "description_text" : "Now we can put our application together using the handlers that we have used.\n\nCompose a chain of responsibility using the handlers that we have created.\n\nInvoke the root handler and return the response.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "framework",
+      "id" : 1072214980
+    },
+    {
+      "id" : 2107351770,
+      "title" : "command",
+      "task_list" : [ ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson3",
+      "task_list" : [
+        {
+          "id" : 2026854574,
+          "name" : "task1",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "Z1n4BOFShpvkJkMnKMTM0Hp2L3eZCm0hzOy1AHkKtO3mMakojYPl1K9yvFQ0QMMFj6429Y1tKuvcInOTT91ssUUIrYx1Mjb9ydAQlyLo2In4gy743SDYrdpJg8lwRSO+"
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM97zOTmD2dPiH82NWFpFu0zgYP4xVCZgrnOBE5xMzMxFMbGrwBEqRuAXxf6OsEGlgQ="
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use both HTML and Markdown.\n<div class=\"hint\">\n\nText of your hint\n\n</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`[element_description](psi_element://link.to.element)`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a [link to the \"contains\" method](psi_element://java.lang.String#contains).\n\n- You can add link to file using **full path** like this:\n  `[file_link](file://lesson1/task1/file.txt)`.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "framework",
+      "id" : 1198989501
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "package.json",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "1A/+fX2tCmHjwdMhEbt/hXmyxiKJuo4uMwoCpoY+t2g6BfLllKJI7aMw+E+C3zMF2VBz8Z6uZiiWHDwPuqdX+P3zvNHpXsgglLYC+q2yncCRPbD9uTLULCp5CRvJgZfedpX0AVvC163e6XzrEUIzHTWN9/MMaQxc8y35dThpCc4="
+    }
+  ],
+  "version" : 13,
+  "edu_plugin_version" : "2022.7-2022.1-585"
+}

@@ -1,0 +1,8 @@
+type: theory
+files:
+- name: app.js
+  visible: true
+- name: task.js
+  visible: false
+- name: types.js
+  visible: false

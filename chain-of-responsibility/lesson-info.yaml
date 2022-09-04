@@ -1,0 +1,11 @@
+type: framework
+content:
+- Chain of Responsibility
+- Abstract Handler
+- Base Handler
+- Next Handler
+- Content Handler
+- Api Handler
+- Auth Handler
+- Error Handler
+- Putting it Together

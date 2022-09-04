@@ -1,0 +1,21 @@
+type: marketplace
+title: Behavioral Design Patterns in JavaScript
+language: English
+summary: |-
+  This course aims to give students an understanding and hands-on experience with behavioral design patterns:
+
+  - Chain of Responsibility
+  - Command
+  - Iterator
+  - Mediator
+  - Memento
+  - Observer
+  - State
+  - Strategy
+  - Template Method
+  - Visitor
+programming_language: JavaScript
+content:
+- chain-of-responsibility
+- command
+- lesson3
