@@ -14,8 +14,8 @@ or even better - grab your own copy of the original [Design Patterns](https://am
 
 This course aims to give students an understanding and hands-on experience with behavioral design patterns:
 
-- Chain of Responsibility
-- Command
+- [Chain of Responsibility](https://github.com/nalbion/js-behavioral-design-patterns/blob/master/Chain%20of%20Responsibility/Chain%20of%20Responsibility/task.md)
+- [Command](https://github.com/nalbion/js-behavioral-design-patterns/blob/master/Command/The%20Command%20Design%20Pattern/task.md)
 - Iterator
 - Mediator
 - Memento
