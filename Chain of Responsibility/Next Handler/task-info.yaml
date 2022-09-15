@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: base-handler.js
+  visible: true
+  placeholders:
+  - offset: 107
+    length: 61
+    placeholder_text: /* TODO - add a private field to hold a reference to the next
+      handler */
+  - offset: 291
+    length: 74
+    placeholder_text: /* TODO - call the next handler */
+  - offset: 428
+    length: 119
+    placeholder_text: /* TODO - add a setNext(next) method */
+- name: handler.js
+  visible: true
+  placeholders:
+  - offset: 121
+    length: 76
+    placeholder_text: /* TODO - add setNext method */

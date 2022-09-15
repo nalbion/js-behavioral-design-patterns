@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+- name: test/test.js
+  visible: false
+- name: command.js
+  visible: false
+- name: move-command.js
+  visible: true
+- name: color-command.js
+  visible: true
+- name: pen-down-command.js
+  visible: true
+- name: receiver.js
+  visible: true

@@ -1,2 +1,4 @@
 .idea/
 node_modules/
+**/*-remote-info.yaml
+.coursecreator/Behavioral_Design_Patterns_in_JavaScript.zip

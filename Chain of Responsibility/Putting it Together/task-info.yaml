@@ -1,0 +1,66 @@
+type: edu
+files:
+- name: task.js
+  visible: true
+  placeholders:
+  - offset: 323
+    length: 29
+    placeholder_text: /* TODO use the chain of responsibility to respond to the request
+      */
+  - offset: 392
+    length: 320
+    placeholder_text: /* TODO - compose the chain of responsibility */
+- name: test/test.js
+  visible: false
+- name: api-handler.js
+  visible: true
+  placeholders:
+  - offset: 89
+    length: 518
+    placeholder_text: /* Your API handler */
+    dependency:
+      lesson: Chain of Responsibility
+      task: Api Handler
+      file: api-handler.js
+      placeholder: 1
+      is_visible: false
+- name: auth-handler.js
+  visible: true
+  placeholders:
+  - offset: 92
+    length: 664
+    placeholder_text: /* Your Auth handler */
+    dependency:
+      lesson: Chain of Responsibility
+      task: Auth Handler
+      file: auth-handler.js
+      placeholder: 1
+      is_visible: false
+- name: base-handler.js
+  visible: true
+- name: content-handler.js
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 265
+    placeholder_text: /* Your Content handler */
+    dependency:
+      lesson: Chain of Responsibility
+      task: Content Handler
+      file: content-handler.js
+      placeholder: 1
+      is_visible: false
+- name: error-handler.js
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 666
+    placeholder_text: /* Your Error handler */
+    dependency:
+      lesson: Chain of Responsibility
+      task: Error Handler
+      file: error-handler.js
+      placeholder: 1
+      is_visible: false
+- name: handler.js
+  visible: false

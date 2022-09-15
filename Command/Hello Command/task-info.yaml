@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: command.js
+  visible: false
+- name: hello-command.js
+  visible: true
+- name: receiver.js
+  visible: false

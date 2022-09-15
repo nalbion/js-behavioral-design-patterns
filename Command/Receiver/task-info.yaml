@@ -1,0 +1,6 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: receiver.js
+  visible: true

@@ -16,6 +16,6 @@ summary: |-
   - Visitor
 programming_language: JavaScript
 content:
-- chain-of-responsibility
-- command
+- Chain of Responsibility
+- Command
 - lesson3

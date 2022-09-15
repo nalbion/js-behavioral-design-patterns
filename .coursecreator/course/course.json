@@ -7,7 +7,7 @@
   "course_type" : "Marketplace",
   "items" : [
     {
-      "title" : "chain-of-responsibility",
+      "title" : "Chain of Responsibility",
       "task_list" : [
         {
           "id" : 1080646333,
@@ -32,7 +32,7 @@
               "text" : "jBnd3HWiFmtdZM28iNGtIOr3NLNPgLfNdGBOu52a8Zxa+Ym1R2vwWXoX93Vi7JQ00Qz0Ivt2RRx4NiWk6Cn6cg2HkHCoDNBoc8rkW81SyQbvdnqgSFIe+BL9njJ6K4FU"
             }
           },
-          "description_text" : "The **chain of responsibility** pattern (also known as chain of command) is a behavioral design pattern which\ninvolves a source of **command** objects which are sent along a chain of processing **handlers**.\n\nThe application, or **client**, composes a chain of handlers and sends the command/request\nto the first handler in the chain.\n\nIn this lesson we use the chain of responsibility pattern to build a web server.\n\nIf you click the **Run** button below, the app will run and print the Hello World response to the console.\n\nClick **Next** to get started building more functionality into the app. \n",
+          "description_text" : "The [Chain of Responsibility](https://refactoring.guru/design-patterns/Chain of Responsibility) pattern \n(also known as chain of command) is a behavioral design pattern which involves a source of **command** objects \nwhich are sent along a chain of processing **handlers**.\n\n<a href=\"https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il\" target=\"_blank\">\n<img border=\"0\" src=\"//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0201633612&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=dubbiebee07-20&language=en_US\" >\n</a>\n\nThe application, or **client**, composes a chain of handlers and sends the command/request\nto the first handler in the chain.\n\nIn this lesson we use the chain of responsibility pattern to build a web server.\n\nIf you click the **Run** button below, the app will run and print the Hello World response to the console.\n\nClick **Next** to get started building more functionality into the app. \n",
           "description_format" : "MD",
           "task_type" : "theory"
         },
@@ -94,7 +94,7 @@
                   "offset" : 0,
                   "length" : 24,
                   "dependency" : {
-                    "lesson" : "chain-of-responsibility",
+                    "lesson" : "Chain of Responsibility",
                     "task" : "Abstract Handler",
                     "file" : "handler.js",
                     "placeholder" : 0,
@@ -120,7 +120,7 @@
               "name" : "test/test.js",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "DqiN8pFxltcEjX4mSTP3LME9Vf2L+zSIq+oXmqxSD+MYi5/JZNXpAWmHKe2fdNvBMiaa34SzwEpXcKILOB+YqpqZhp9tscksHc09ue/kPt8aJLiglKIgN7smg8Bhs9m3WGGqYHgrCzWRtC31V1B4XoNHhSYTae4UqEfpF1SG5AFlT7x6WBpb2CYA+CyhDBaOPx7+NRbih0WSZaMlenqw+x5qlWi1RmATqnG07xNw6dfxuY4Xz3ebVroLAwM01ld3h4rr7VMvmwTZ5bPpYF1bLdm+cibsblEwQuOO8eRkul9l4XZL48Q5BT5B4ha1+lQAqoLowW9zBjVI60FQBn+ozLaV4wUysGQeq1Mpsc329VNv+VqryXt/zlZtLmuOGrR1W1WZr5u/qURtQAy6KC7r1Se1jXHzLy3evwj//rfILevKHm/UisdGPCHbNbDtfz3gUf1oSVws6w/RpwQUlMRmLk1+4cWW+YmiRAk7PddsP/Y5fn9A4eAHN0kpTO6WhbqDyLbQkJYIcNmCt2yFzbzIAt99kwfwIEASRh+wScs2Xm1bNClGbnZBgEMbl/A94Brje9O+T5yr5Dwxoeqx0dZMru3ZzjmKeMKlqN8CsN5oMLD/05/ShX90KyM0+wubQDw1YfU5G2oOM1BxyGTSUIL8cezgqx3KBn7hZtbWf6EA6lUHe51q3ZtvaRsu24dB3rit2OJU2gCyg3TR6h+qipWYLK+0OjAOMhk5pgvH/zg4SjNCwHej5d9G4tRhhKPlXYhy69LIIrmkMUW7QMog3j0me+y/hIMYFRW85E4mNot9hY0HfIGe2mTO5EVtD2ZNnzB1pFJLzvC+f9dLV6fmrd75MKXRnRbjWxJFUCFfcEXw6FY7lUjJD2mqw/oRGujaqzVf4fPjSH1iZHg3qzABjjJJL4FuQdg8Uc6zy8ka7EjO3tOwOZeOjK7JqyxgjqQDu6GuOb2/FaIpMmBUCmyPhjAtBdrJKPw2pA2POyn/HvyEbsKuXee/Eg0Cdk2xI855w5aHij6YYkm7TpboutWAOE6GcJ4YkYphjaDeVcdkUp21n/VUVU6u2LL6l8GzdHr8MferX9QsDo3TFG84LKCdVnMUZVBnz2cl9HZkEc97twNGUMqj5X+E8ssRZ5SRaGGExq8SWMm91MaUYw4n+Jbw/3qn8wQcmBMhLP85eaRFl7zg+so="
+              "text" : "DqiN8pFxltcEjX4mSTP3LME9Vf2L+zSIq+oXmqxSD+MYi5/JZNXpAWmHKe2fdNvBMiaa34SzwEpXcKILOB+YqpqZhp9tscksHc09ue/kPt8aJLiglKIgN7smg8Bhs9m3WGGqYHgrCzWRtC31V1B4XoNHhSYTae4UqEfpF1SG5AFlT7x6WBpb2CYA+CyhDBaOPx7+NRbih0WSZaMlenqw+x5qlWi1RmATqnG07xNw6dfxuY4Xz3ebVroLAwM01ld3h4rr7VMvmwTZ5bPpYF1bLdm+cibsblEwQuOO8eRkul9l4XZL48Q5BT5B4ha1+lQAqoLowW9zBjVI60FQBn+ozLaV4wUysGQeq1Mpsc329VNv+VqryXt/zlZtLmuOGrR1W1WZr5u/qURtQAy6KC7r1Se1jXHzLy3evwj//rfILevpWuZhJJ9qnqc894EDiorTMzTztMiCKdRPZ9RxtS8hhrwPttHEq4Nxt4k+TGkQKAQRS22B1mwxbO3LkV2oPSIcsQiZaPTFVzI/ry7C/NbjbmHQU7AYanM50+8wlt3UxsOavEYJF6AwrtecLisA6IdFcnaPNiB6PztX10m7/ywekpvIDrEYiACNPirwppI3f8KfwT/Yc/Y60QXSGXlKy517Fr1lC637AHRUxV+nvF4kOj/mf2UGRdu8bF/sh7oO1Pk+M9C5BD2jPC4S6CFO0vfE1uwpS+j8/l+jH9/6JaDQin/RtcE/m4TO34LCMKG0VrpGJZ5iDCrKb8dUlfazGFy3IYd3s7nJrNUQN27x+CKzmTJL/IRtdGqfUDkuA25yIs1RNg+BLMwHISXmEffPyNZwRGoqFfPSmWKqXDIBwuKfAvOiqly83qv1QR6mRmd4Q7dCNEkPsgpF4UUFrh8BKpTAb3wrYoSckobsQjm0nKoilwDsCUjnYjAnZbWLBRpaQn/JEqBoKBRATExlm4TIS83/qP/vZ4VqUtRT221ofS996WGBxzGYxnBX2QXIfmzDpghS5lMEArP0f2Do0xf0fWhv+5DrmZTz0pSeyhtnNczX71k0tVVOTmg1+drJ2vdNhg1yI7yVrc9QoWpGSNTrhJn/6tDLvMxIrOA7EYZCObLP+Gj59v6t1tjzYg9+zRV7TrLFhbHgzUBrpH6vExzD9zY3nwHlt+OB1tnDEZ6gf6y6Q7/+TdTKET2yb4HHOk9ALzd5gYgECyBg4Ng1+vU3ycAmWFiBKvSNLxpeX8Eflrw4zf3nmXWCkSSrgf38DbJ6u9hT7f4PsT9cVFsdxr9z0rknl8AzUu/lleP39zTXC7UZlIrjnQ0WCieo3KFFCi6DtvH9dETD+51qlc4yYzKdxClG/tPFEGUzBaGOhKSki95jbPl6+OHZ+P+O1/qpHPzX5mH5A/zRH8Lq2DmUyHV4ZDDUOM9ffhsc1rlLtLwWQDlk1Rdo8/cL564/sp4wd3dghQsI+4IWT8sbeVJR8319FP9Gok4hZpAKPGizENaI+crKt7P/m3wDAUK3Z5BJ7vZUCCzBfXi8P4tjmCU64aSSH3BTRC1OJRQ66C3bJu0bgbWcTQC52oPmEerPWzq97urblkU="
             },
             "base-handler.js" : {
               "name" : "base-handler.js",
@@ -140,7 +140,7 @@
                 {
                   "offset" : 399,
                   "length" : 39,
-                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02BTbVEH/2Oa/p7m7kJORIvcbwHEoWXzDP4rPdxrRwEZ2WP5GXZ70VCTAUDZrQYI37KzDL+omfppM2/WpC7OiZuC0CdtAIQMVxjX18gyu32Ham9zshR5GJiCpttr6auyASq+MUc9Dxw2A6Ml/QWnG94s=",
+                  "possible_answer" : "3z12aiFy+lTaJ9QUTiG02Hr7Rry/dDrX5tpkB0ti6ElW9thKrAq1c372OZjeJbX4M7aIX97aatbIcd4tcJjrpLNSfy6uyRDLu/iripcHBq/ArUrgx99lH7GWKUPHkpZYRO4KLpKJ2m91iiBiGVZKRUGoiVX/ba7/HYy8g3AKzH0=",
                   "placeholder_text" : "/* TODO - add a setNext(next) method */"
                 }
               ],
@@ -153,7 +153,7 @@
                 {
                   "offset" : 121,
                   "length" : 31,
-                  "possible_answer" : "cUDMDwkD6ySs2PX7JxlMF4SvE1YcjSEqCVzvwJMtYGh6L+o1Kr27wyYdP9CJAImJ9Tm8E/zn3jRfJaV3s+F6buDgOIsLgMz4byq4qJ9Jnvg=",
+                  "possible_answer" : "cUDMDwkD6ySs2PX7JxlMF4SvE1YcjSEqCVzvwJMtYGjxY2e+YJjzlI7soL/z8rWsA2NdjznLKqcK/xvGm799NQs6hWyInQW9mBpHXrhCJVM=",
                   "placeholder_text" : "/* TODO - add setNext method */"
                 }
               ],
@@ -179,14 +179,14 @@
               "name" : "content-handler.js",
               "placeholders" : [
                 {
-                  "offset" : 225,
+                  "offset" : 91,
                   "length" : 38,
-                  "possible_answer" : "fz4oJ4yVcNOa/OeViNX3s9UmarZKlxX4/UqOHALjZFw205hAhYU4OQJ+jjJsEgoMGfEF2WdWOKMKA0BPenB0cW6p/yZfIXAowufRw80IajyOxpQOji90RTsJfrPdula4vxCV9RJPESgeyJL7R9U7RwDrG8OVg+5d1KjHpHECP/z7RLb9zddzF3FumvN+d11K6Jpc/UQUk1ETgV3q6KfLGD9HVPanpbbGt1FwhTiNeEDzGasmu+GptGBmmCnkkf8BHzJeAM0+Z+K2jzS1OPQFZl+zj4H4Cw9Ic5hfQ+laXZGZLAQK3qv42hZbIg7kQO6ZVfl4atZX3y4Hj/XIbcZ5D+Pm9Q3IBm7ev1Vli4mrnzA=",
+                  "possible_answer" : "fz4oJ4yVcNOa/OeViNX3s9UmarZKlxX4/UqOHALjZFw205hAhYU4OQJ+jjJsEgoMGfEF2WdWOKMKA0BPenB0cW6p/yZfIXAowufRw80IajyOxpQOji90RTsJfrPdula4vxCV9RJPESgeyJL7R9U7R2mdHfOmuJRDHvM0opwucMcsBOGbVMTd+ID1y7rsEwMOG02j1kJUYAeO368LPDS8qTeW9GbTJooQf7unJUgAsXvIDxEcOrkjrPwSTCn5X+7TZlZUINjYYZW7C6YCMHhxB1JiOilUe5toTVaYkU82j9siXtWRgpJ+aiC2SgO9NZ+kUel90GxM/mdZc6o7klfDt8AnQ0vzYXVAu0B1LqyiFyU=",
                   "placeholder_text" : "/* TODO - implement handle(request) */"
                 }
               ],
               "is_visible" : true,
-              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy3XrC4DSMmZGXb8ZRIijX0BA0EmK3i/RYaq8DTmqqE4iDaP7tR+sS6t7Oo2Ci4oZj6LR2BCN8BtkfidybfQ3U8ZVhZTQS+5u/YvklYLSCrxRQ=="
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgfYr4c6KsZPADyxuEUg8tNXq1hFFQ6wk11kxkSxKqxOx/N359P9SObSA3vamLlsRnsweNe5TNAL8kGD/pt2JXFrqYRfskhF9xs+zC+Ce/vL2RNp+TuD4JpEyYOoXhp3KO5ZDC2jImNQKDnKPp5Ur0cPmohVouxht5KC8y93Xy7kPOYkBwWPWE9w3+0+QdpgGRJCpTBYShZ5pI/33nI47hS53NnmI4BTXoJmIvM+i8pSUepAVL0CcP0NilkPgCQV+TG01bbhzLQ+Wt3a+j0sAAqvb8kHCQPfEzqGvZnKh7+Sd2rWZJ4ZCu2oQGs+gLYzO5l/kSgHw47j2nJsc3mzPD6kKxDsOldTwihEa0Yr74ygJkOo1URo/b79nX+orColOOqq+4yI/cbLBVagqZNku5M+wpAZ4NvNSDQDZGrvAqq2XG5c1OwG0JcHI1FBlKwZHDUccB+ooJcQSG5miQIXIZ3H04CFVas8LmBSvVG2LRXFAltz2pS/I3bhZmvvI+q3qRrVSy9judftdVpS6NjAQZqHtPHM+36ikKhm7HZzb65Qg="
             },
             "base-handler.js" : {
               "name" : "base-handler.js",
@@ -198,10 +198,10 @@
               "name" : "handler.js",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBXd3Pta0nqu6C7HAVpp8DfbcnbkCxnnNpHxIkFQVLjNvU7uU1MuTMre47ruuFN+65I2P/t+dsjGBkyNybpZPEaEPPTAqCeUdPjCJwXyDX2dj"
             }
           },
-          "description_text" : "Let's allow our app to serve some static content. For the purposes of this lesson\nyou can use the dummy `files` in `content-handler.js`.\n\nImplement `ContentHandler.handle(request)` so that it returns a 200 status and the file string in the body. \n\n<div class=\"hint\">\n  You can use <code>new URL(request.url)</code> to parse the method, pathname etc from the request.\n</div>\n\n<div class=\"hint\">\n  Don't forget to call <code>super.handle(request)</code> to pass the message on to the next handler\nif the file is not found\n</div>\n",
+          "description_text" : "Let's allow our app to serve some static content.\n\nImplement `ContentHandler.handle(request)` so that it returns a 200 status and the file string in the body. \n\n<div class=\"hint\">\n  You can use <code>new URL(request.url)</code> to parse the method, pathname etc from the request.\n</div>\n\n<div class=\"hint\">\n  Don't forget to call <code>super.handle(request)</code> to pass the message on to the next handler\nif the file is not found\n</div>\n",
           "description_format" : "MD",
           "task_type" : "edu"
         },
@@ -219,7 +219,7 @@
               "name" : "handler.js",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
+              "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBXd3Pta0nqu6C7HAVpp8DfbcnbkCxnnNpHxIkFQVLjNvU7uU1MuTMre47ruuFN+65I2P/t+dsjGBkyNybpZPEaEPPTAqCeUdPjCJwXyDX2dj"
             },
             "test/test.js" : {
               "name" : "test/test.js",
@@ -244,7 +244,7 @@
               "name" : "content-handler.js",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy1tjEzS4ufkJieZMbqSFnkyt1qga2AtUhjUQW9zZKZZkMjZLwkpYOdSaKJE/lSFaFOXoKS2A+Q8YSpYiSrUnqyeDuZYWE7ToOj9XNYQEA5euIw3S0ud0Cp+phrLOdz1n1AO27b3XRj+mlLRAl8Y17jPg7OjPACpxiv8Z1ikHyzoQZU381UwsSuWckoIiEglD7p9+Aiuxoq+TvJr0Vtsw0inIZJ6soGhFUQrIPdOqZgBF4qOt5DmxReNpUCQCGs1F9iP4l3ZCkaW8ARFJo3F+PuD8dGos8x2XbzciG91/ogYMX0HZR5dlOHJosKpfgRAZdw/3ItOFeCog+5dk2qPPV0SyG5+s1oVl+Dopmd52LGaA83Y+3gwH35hhJMMkutnEctgkVLM3SSF1xIXQX+8H88b"
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgfYr4c6KsZPADyxuEUg8tNXq1hFFQ6wk11kxkSxKqxOyryAAuRIVpNDYqfvSYiAWLwH+4CCGMOACeUS4rECoN/C6n4Ld+PiYYqxfGUSSscZOmGv/qjnsb/ChPpSusDGY3a82jZyUApdTxzyghQuOfwSYXjFiTB0Py56/t5nWDbvFaymWoIkqMRzcCmGzAgaEXnzgToN2p32jZDAaEs5b/AmzTBAZRkzzWFSHDR9Hh//iyVVBqYKmu8FQo+BOYkka4rZP/ZknlaefrLnjkJY/tetbIEzJZDJFf+zXhJ88RDZuWYKF/2pLtdrEll8XgIxv3Rs8x+LredLjusurpMZokyhQ+JO+aiBQGwLdNKwMCX/dWYaFF3DfUNWruUbhrQ45+LyaVFoWrLeUAdZg2prfoW7ctSn7MJ1DmGsTkvGJqkRqOiK+rxwwgtwDLsvzXDh14eyDLXHGroenXDM++sCW6CskBSAgTc+knYJ3+6VbmbQKUIPiUpl8Nu3l6KJse9alaS+N6qjZaiEK2hb77B9RGBC4Q9MP1G3hJPGqcha8qfveeNvjZjyhC3YrGb1IxHHUz8t/mZRakSSU5qSxeHqn3xITREGdOXMFTqaoUGKJVwTnSNCfhQ50u29WCKsaCjagZmpqqAOiE95eDzWcI7hbhfBgHwmcTemRNRuGDJryPkKkwCKL5FtM8WZkizgB0zVhln/1bxnZGiXRgpQBu2pDhCLouhSgyRYD6AR/Yn59j4e7dGsFmuWPa+vwUwOiDcquTAEXCggiCYVza1HELfBsMGho2fCdCCq9Zx/yMweTc+gmmx1YfesRQXc7bx37zY3HWPH0YX0vJs/VckNiQL5BCog=="
             }
           },
           "description_text" : "Implement a simple API handler\n\n## `GET /api/hello`\n- Provide a greeting using the `name` parameter:\n\n  `{ statusCode: 200, body: 'Hello World!' }`\n\n- If `name` parameter is not provided - **throw**:\n\n  `{ status: 400, body: 'name is required' }`\n\n- `POST` request is not supported - **throw**:\n\n  `{ statusCode: 405, body: 'Method Not Allowed' }`\n\n<div class=\"hint\">\n  You can use <code>new URL(request.url)</code> to parse the method, pathname etc from the request.\n</div>\n\n<div class=\"hint\">\n  You can use <code>url.searchParams.get('name')</code> to extract the `name` parameter\n</div>\n\n<div class=\"hint\">\n  Don't forget to call <code>super.handle(request)</code> to pass the message on to the next handler\nif the file is not found\n</div>\n",
@@ -336,7 +336,7 @@
               "name" : "content-handler.js",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy1tjEzS4ufkJieZMbqSFnkyt1qga2AtUhjUQW9zZKZZkMjZLwkpYOdSaKJE/lSFaFOXoKS2A+Q8YSpYiSrUnqyeDuZYWE7ToOj9XNYQEA5euIw3S0ud0Cp+phrLOdz1n1AO27b3XRj+mlLRAl8Y17jPg7OjPACpxiv8Z1ikHyzoQZU381UwsSuWckoIiEglD7p9+Aiuxoq+TvJr0Vtsw0inIZJ6soGhFUQrIPdOqZgBF4qOt5DmxReNpUCQCGs1F9iP4l3ZCkaW8ARFJo3F+PuD8dGos8x2XbzciG91/ogYMX0HZR5dlOHJosKpfgRAZdw/3ItOFeCog+5dk2qPPV0SyG5+s1oVl+Dopmd52LGaA83Y+3gwH35hhJMMkutnEctgkVLM3SSF1xIXQX+8H88b"
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgfYr4c6KsZPADyxuEUg8tNXq1hFFQ6wk11kxkSxKqxOyryAAuRIVpNDYqfvSYiAWLwH+4CCGMOACeUS4rECoN/C6n4Ld+PiYYqxfGUSSscZOmGv/qjnsb/ChPpSusDGY3a82jZyUApdTxzyghQuOfwSYXjFiTB0Py56/t5nWDbvFaymWoIkqMRzcCmGzAgaEXnzgToN2p32jZDAaEs5b/Ahls2Y8pwuR5CEojNVzrSsMzL0UVoMa6wnf5qTWgw9BOBBmGzmPhra5Bvj6sfDIexOIMJdukd9i9G1o7tVeI3wDiIkhAvkcovhvkRKDHRxQd05pSNPwlxVHjPq1H+zodQylolTCSjjYLliI0UVFw6kbWvTzvEfy8IA9p191RU3M3dLYu+QGjK8DfdyTXdnMs9S4Z6zZJmRo4H3Zf9dEn2QetrvpndHfFIIHXqIerMhow1KFIhXXOpwigpcu92PxTCbSOawMktpoEMbMrYaySAqg3UbimxuLuDfEMsKeL/x5CUGxZQ7Jyd56szcpu07XKJZ4N8dCiyelgAWI+dH4RqtrcfaJ59RKkgJ7CX1sJSetzy4rypeJM57++PVnAX/gg7p6+Z3Miur1jnYKZ5+u7sLZYbtwDkjG7xNA7jmKkyjtV0h0zncZbjghh38K2f13iFqzTPtRbQakXF08o/8Cv5UmrvAGqmJ7YWBcyr36W98rpuvRHJp4kmhUQblB5QdDypc3F4VAbVVZ2BIkIIQiBXf9iMvspdp5yOGviOE3wo9RlbPaUq456QxnvrAi6Wr81urfoMubMHQDhlR6TESZPZRWfmu2Oginbwvg6aze6QSIkixsv/u5RyQJqVWrHRbJQZQ=="
             },
             "auth-handler.js" : {
               "name" : "auth-handler.js",
@@ -385,7 +385,7 @@
                   "offset" : 89,
                   "length" : 22,
                   "dependency" : {
-                    "lesson" : "chain-of-responsibility",
+                    "lesson" : "Chain of Responsibility",
                     "task" : "Api Handler",
                     "file" : "api-handler.js",
                     "placeholder" : 0,
@@ -405,7 +405,7 @@
                   "offset" : 92,
                   "length" : 23,
                   "dependency" : {
-                    "lesson" : "chain-of-responsibility",
+                    "lesson" : "Chain of Responsibility",
                     "task" : "Auth Handler",
                     "file" : "auth-handler.js",
                     "placeholder" : 0,
@@ -428,21 +428,21 @@
               "name" : "content-handler.js",
               "placeholders" : [
                 {
-                  "offset" : 227,
+                  "offset" : 93,
                   "length" : 26,
                   "dependency" : {
-                    "lesson" : "chain-of-responsibility",
+                    "lesson" : "Chain of Responsibility",
                     "task" : "Content Handler",
                     "file" : "content-handler.js",
                     "placeholder" : 0,
                     "is_visible" : false
                   },
-                  "possible_answer" : "bWR48ILtlyJdkdNbATv2Pfln+qGxcyp65vg1yUSzVqV7IM5SPyoja0mFzL4ddeCY4SxHgg90Tq+2hzeJoKT6ahIcAtOHfyDTNonK9/LpOAXyQN9VrhHloB7ZPOVrhg+Gd++38G2z8V0/8LMK0uloow+EuWg2Gz5V3j1nBdkMsQuf1QqXPTNTJOliNQNkGkBTicBw3IcC9dTt6GLjXqYkti/7NHjjBM2GPWb+kTnmwqGl+4DILpq63w7XRFy5KOkc/gVwTyYzcFINR47vEPiCoQcoc0IFoB2hpllkzpODD9ozgCjPTm1XaGkY3PZAGAYUee551mcD+FlLT2uY8QYbGUl3rWEBQKkJZcZuhJXtIkQ=",
+                  "possible_answer" : "bWR48ILtlyJdkdNbATv2Pfln+qGxcyp65vg1yUSzVqV7IM5SPyoja0mFzL4ddeCY4SxHgg90Tq+2hzeJoKT6ahIcAtOHfyDTNonK9/LpOAXyQN9VrhHloB7ZPOVrhg+Gd++38G2z8V0/8LMK0uloo7aIJcc/wx+SI3EXr9WLVLYCG8lKvzF0kSttlpdMQi0iGgW6iRWgPxvLIolJy/78lspJMdswtGmTWwnaxv6Z2BZQhmuEI29DTq6y52zZl49X2sDrj8FMu2162lZdNU9qpExuuBwOUvXXniSRIGRg8t+LiopycF5lLLpci/65A+0V6TsWMj7wytYGYA7txwpmK7iDLC/rZDKj0+/lmXha0sk=",
                   "placeholder_text" : "/* Your Content handler */"
                 }
               ],
               "is_visible" : true,
-              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgkdKHqSJf8Wb7L7PUjXNWd/eu+txjCVSkuE58+lYFCTQ5PPvHXsiSmGTW/5S4ZlYBnh3tnO7/vkuvRbLKuoUc12VX2PqlJb/mLCw2UWZv0D9ID62Q2EuXWFNEY7iv9emzocLFAyyhoVSFh/DqDvJla+b/lRGrB1Izj1jWT9YKw2RpUB5qw4Q1TlqOS2QlvGMc69TXdiQ0+lXYyjmVIOWdhcJUFKow8h485gsiut6/Wy3+9dnaR5K9GlZrd0Iq9FWWRqLe5Ia78RJ/+sPhUv6F6P5+Wp6CEy1pttt7cTNM7e667CLk+CWfwtom8FXQMrXFxD/x0rgpv90vJWo94YTFDA=="
+              "text" : "DqiN8pFxltcEjX4mSTP3LGdnmCdp97T9B0OHUW85pc2o2We4+yeKCoItIBgDrQAgfYr4c6KsZPADyxuEUg8tNXq1hFFQ6wk11kxkSxKqxOw5sfkpMsnbDIUDgvjcIastPQb5/3gL+KXXt89UPBmdkBA5ih7lbCCgR1JB1FqQJ048fwA6XkqZN2A8fUqOkKKgrtE60+h3TU1pmINuZeNpNjKWwPHR3SsJF0qXwWUghHcFrKqieU6KAc/5/4+EcPWH/YBZgDgDB7ZXBMk3pnDQOqeegkLyTMbssw/Cuenhcp60yETjEsiIPPkUDCBAsLqx3q7r6TdUkU6xNPiTBJTNJWmvBZn919FO+DtTIOg3Wq6NNX0X8D8FJLN4vLFt3Mdc9TvNdHTaXeuFF0fay9p0WcYEvNkLRJBBvYKarGxDgk6f2DNr23+0RvMeAaDLnBSnyEF+lp3hF0fWNDaFTDUTECHTRde5HmdTZKrDUI82tf4zWNfBWxT6d3EtU55hMuQnDFsEK5Q/o2JeSgXfJvXevses+05qJlOaqjQL/a+60UjD6Dl/VRyGYsVoHGVaeSCUayhbitHirs2fuklFU8TLOw=="
             },
             "error-handler.js" : {
               "name" : "error-handler.js",
@@ -451,7 +451,7 @@
                   "offset" : 93,
                   "length" : 24,
                   "dependency" : {
-                    "lesson" : "chain-of-responsibility",
+                    "lesson" : "Chain of Responsibility",
                     "task" : "Error Handler",
                     "file" : "error-handler.js",
                     "placeholder" : 0,
@@ -471,7 +471,7 @@
               "text" : "nXkqkeaz5iQC51Cw89qRZ34eFnRlImS0d5EGyEtqqoozADSB8XqcjmIk8FFIpoZWAQMSt78CtmocV9HLJ8X077WiIa7t5pfbO7HYtbwbrUWfWc31qjUbEwSMG/OSd0O0f2lSKlUyifsxlv/Vm79t/1rqGme7spesA46MIfeO+wNDwfRdinK55HgUBqmrs7pbVsFakptmMEeyVePE6y7WBRhq9fDnCfPI+FfzkL6Q77ywqObhg/it420rw4p+SxqnGUmK0MkZ6b0ZFwrXUWYccxzMoWNjZN31c2cs6O/FQIM="
             }
           },
-          "description_text" : "Now we can put our application together using the handlers that we have used.\n\nCompose a chain of responsibility using the handlers that we have created.\n\nInvoke the root handler and return the response.\n",
+          "description_text" : "Now we can put our application together using the handlers that we have created.\n\nCompose a chain of responsibility using the handlers that we have created.\n\nInvoke the root handler and return the response.\n",
           "description_format" : "MD",
           "task_type" : "edu"
         }
@@ -481,8 +481,163 @@
     },
     {
       "id" : 2107351770,
-      "title" : "command",
-      "task_list" : [ ],
+      "title" : "Command",
+      "task_list" : [
+        {
+          "id" : 532692458,
+          "name" : "The Command Design Pattern",
+          "files" : {
+            "app.js" : {
+              "name" : "app.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "RlXsoJyHwlKrQoeh7e8fORArCTKzEgG2FCc9gznr+86w23hTmD9t+bgMK8AVJ+e6oeTqmcSzQyrnsYg0gCrfDFVUWYNSuKkG8yz/QjnTVmv9MbGyscyI6/TJNE/6IYPAkRPxXJIPe3MD0FVNSDuCRQr7Jm3oD3xxJsPcW0WevAu3T5d24fY7zil+BC1zKlKQaAqZ9nUIwZCYetKKPErTMWvoyNAhAjU9QAVEvgxZPn2/aOA9NH8KBdVBTgqZBlUE/TXUAGV7T7oaFEGodjOX6P2lUV19ppYnNEioVOfMywV2E4cRMnxdmV7ysaxXVTxMXjb5VvKs3sEVUNFVu98g926bnhwsOhYE5C/jTbQOiYmlacd2ja3SY8Mi/ha2Xv4z5SUgSPaA7K8kchWx4z+rSevmtoMniyWyq9tC+wMteRWMTMvXb885or2L70NVmA5S1KyaqD76P4/JgxEL+m5wlUms92QFmSqzYZzO/IwGXxrAh4Gct13OueZPVzR6Gsj6snwSF32TxE7YjExOr/zZGnbj6OXFsqiiteZgR++0T8ETgcWlmkg9g8nh/pDer+P5SivvS2knu2VHBZZ7JjPdPH3QT4oiKvpG+aNT3WwBGTl3o2uo7z7+vGTs8k3cVIf06mlznRwWpodSuQqy4c6vkPNBf4tuVHGJlYIzuzBPjUxpEYTYhprA5pj5WLixZnhG3xLPKhJ7IpIeWe1DMHO7+I9dwpcR80zehgP2PIh90R0F2uw+zKkyu79LWCLmYI1Hvj3ypUdClaq0yP34g57EQRtE1yA3bHK3Wtl8xl6Hyg/TCzci/8W5JHSBIIsDJoxeV9N+SNkJABz0DfXfQZkfD/EhY5zwzUstYHfVhycflVhba7fxg4KUPGJJ6ErpCvFWtx+UxKQgGZOGIyfR6s0y2USsZPHoX209QGlUZX+FfEN50420T/+Ytv011kT164btY3kwGKN0uXsUO/RVKcbwF7DBT4iNqZjlAscO87p05AW7Ok8TjnKe57cBk8Bon4SU1g+zO326HJm7nin7HVF3Sh9aMeIUXjfbpNIT1nt64AUpbMbvIPg0wS/oWNLnrndRGn13L4UvfynDYoP+g6YJRTAqkxzPIR4oP4RDwfdclaNZ57yxtf1wuB1ZFRAewB9UDe8Ee25ukrSeQUCYkUKscr78Gr/Tai242JXz9mWwODtWLLGPHuagKkqABrTQc+540Vm/4CKH144pHSmo39HCK3uUrxXVVsJfHsGsK73ZGTro9zbTMK542A/QRa1bLq2cX6TGM9b60P9j0tCJwFulpBD6BRSrPdzPACV760VvqVfPh+p0VBbl4ewaC1Jo7Pzp44kpJX5eGm2X+pqUXjZJoKzNPSlTCTIuLjuOvHDOLotf+E3zMYOEX+KOy+LqUgHFFPyRK0VjVIksVylOuHaIVCFsabZjZN1mF57qJw0mBLKV84T3TZRry7W0GneMjmLyBOK1DJPWrExA2ZjLs+xJXuVYFx2aGC3WubDhB24ybaVpj6MdXa9y8uZyFS1hI3/mJqxbxpLQrzHKgDNWpTqtkdRLSxY2RwmCR4H9JMmuLKDrvccqEoe47Fia9BrVbD6PDg8wLpA/SdKNURYo1tDLtSyIlNHuVeo2GsXLH2Xp+JZcE2vlWY7PCYKGVx+c/dNMCjl82qXTiEY/BAoHWm+NOoozNGpR15h+aJ/oHWy9OWufS8htsQWxVLhOuR+Ly213Z9mWUX9TCoPYCiU4voTQ3WfkXdG3bJ2L4jDdzS4WkmPshW90sBaAR4XTUZRNu/RW+QE5g7+n26XCcS+x9GsiFJ9Elou4HJ05bQheZ8yHj5cGr/Sohh4mk99IM1BDsDhH"
+            },
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "pbPrqYx1xPFXpAc6Td7yER0cyiPXONBco67Z1q2MqdULXcLbvXKdRJQHY75njlooJ5oSi8NHMNdRg4R8kHm91Jn2ETWIADCRW2oYrqi6W6j3bOD6LgCR3n7FxDmIfH60LE5LfKcBncjFYJ6nSQaGYrPx4Yj8E+f0o04UKfCjUUg="
+            }
+          },
+          "description_text" : "The [Command](https://refactoring.guru/design-patterns/command) pattern \n(also described well at [Patterns.dev](https://www.patterns.dev/posts/command-pattern/)) \nturns a request into a request into an object that contains all relevant information about the request.\n\nThe command pattern decouples the application from the implementation classes/methods and\nmay be useful when you are dealing with **instructions which change the systems state**.\n\nCommands can be:\n\n- queued\n- delayed/scheduled\n- handled as undo/redo actions\n- logged for reproduction of bugs\n\n<a href=\"https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il\" target=\"_blank\">\n<img border=\"0\" src=\"https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0201633612&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=dubbiebee07-20&language=en_US\" >\n</a>\n\nIn this lesson we use the command pattern to create an SVG. \nWe could call the methods of the SVG class directly, but by using the command pattern \nit could be adapted to send the commands to a robot in the physical world.\n\n\nIf you click the **Run** button below, the app will run and print the Hello World response to the console.\n\nClick **Next** to get started building more functionality into the app. ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 442792153,
+          "name" : "Command",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "tiYKeZ8naH0mInQVZkk6oMekMmYhCL9M+nhR3B0dAUpL0dMmlEwFuIpD4AjMeNaCjH0uMe5sj++GutIfFhiFNxyvyNI9oQdR1tZtyM5aV95/RHib3XpSKdTsuk5t/OyZsWB1W0SzivNVAe5bOXewHYG6ibZ/bCYs+uUqiRhsqPdsWMOmlsLoodmwFEvPLbPqVCkHvBFqT+PwWZP44v4mkkOiwGK+lBNjLZ3q7gAamhvBoSTGkn4qcbua+Ph3uvrUpAQCHbpg7YNGJCcPc0v69N2FFqorWJKvE891fJ/T8T1zBvf7OVogfWXQuxouyPTF7Zv/mCbXHNRtl1goxRmJtZ/jVQ2gCtqkzdTsAiykAtmMOkB28ah5t9OFefd/n04w7T1FH+RdqHsFKeANe49x64fgagjuorgo7WsSNbevL6j5Yax4c34oC6IQkMEsNMLKAizt6uS/RToJ9hj5oqX0Q0ub+5P+oSUONwMjeMPVp6X3E+tCXljytue7pp9j4gaqZuYFo782efZnoH3u4UAletFGdSulqAWiH0Sw+wFrk0TtVR/4RA4ysn/d3Uxz+ZGI7m6nvF1KQtu3kGlW/jC8s0iJUI1vCZtLOMtH3XVKkDJwUDPUhGu7CFl+mwwHABJyS0PKQ0Pe3w2NvwfF4x+1cwYoDAPcyRFZzwBDbZwNFSniKP8zEWJe7xQN8g6IsLKPSYNcY4SVlCq8sbhf6tu1aHFI7qu6R4i+xqsuQFxgatDzfEyvTU/aNJaFocY4N6Ph"
+            },
+            "command.js" : {
+              "name" : "command.js",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 41,
+                  "possible_answer" : "ARuDatcONS68+Y1RkqW1SYTsm34vcpaMulz2C7LQt4oyXOqQQLPeKIqpsk3VOm3NAAdXiZbKv9/bKag7ClTm8A==",
+                  "placeholder_text" : "/* TODO - create the Command interface */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "JmzW5mLtpXVWYDBveq6kYJHRyDrxPjuOzfgsgwgsrwNF0ciz7Zxz6A4VVHiD/l9FgvIyprOhVuPWGlbAVooApfrfadSgk59dm4PLk8YNO30="
+            }
+          },
+          "description_text" : "Define the `Command` interface, with an abstract `execute()` method.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 2069562316,
+          "name" : "Receiver",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM97zOTmD2dPiH82NWFpFu0zgYP4xVCZgrnOBE5xMzMxFMbGrwBEqRuAXxf6OsEGlgQ="
+            },
+            "receiver.js" : {
+              "name" : "receiver.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "QkgWQEQKDiwU5XjB+BEnSIP790LvSiBsUHjLrq3lEmAo0EATuddUzF2TXFZJHNr9hUNa/AXyNIfQnx7jmfzlextf1WTMvnk/VP5R0zVT1K8YSaqnVUMVCYIJN76T6oDvud8+t9LlkLCTpgc0djA9PquZm1Gq5KZf7+usKZZE5iaawSID9YJfdGbvCy8NReXa+Rr/9JI3+hb34Ih08CiNSTeMAwfQkEEXpXHIB+DcH+E="
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use both HTML and Markdown.\n<div class=\"hint\">\n\nText of your hint\n\n</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`[element_description](psi_element://link.to.element)`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a [link to the \"contains\" method](psi_element://java.lang.String#contains).\n\n- You can add link to file using **full path** like this:\n  `[file_link](file://lesson1/task1/file.txt)`.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 516896979,
+          "name" : "Hello Command",
+          "files" : {
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM97zOTmD2dPiH82NWFpFu0zgYP4xVCZgrnOBE5xMzMxFMbGrwBEqRuAXxf6OsEGlgQ="
+            },
+            "command.js" : {
+              "name" : "command.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "RlXsoJyHwlKrQoeh7e8fORArCTKzEgG2FCc9gznr+85/oif+pkCQgDe1G9KYLtZVc0EJ48lZ0BVQzNj5MTf1DTEcCwpxQ28fGbsHsLnVsrXbJsENL8bWe+g31/t/HTkZc4qniyg/0oc2pKThIPv2iOFEgDWUYJLkYZ9tsWNkwCPGln2+alVuWkwL3qjlUH8JchvPPSHIXSULZx6/b2VyqHtTQaXLnaAAiCPgKFysKtnd8Ny4sqa+SzfZ+ETRRZhPKL02Ps4GFhp3W+FtbuGFYrdYvnmzRaadMEwZZkYrIIeNU5VO8jyS19iCxL82STBPmNX10XBfr4QC3NrxL2rkAn68q8A0472fGxDew0gXTvHQN2NmGQ76Ofnxcwj8m6ug"
+            },
+            "hello-command.js" : {
+              "name" : "hello-command.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "f3AvOGkW+5Hdwgwts/7X4+sKxyPxKDPIWw+bFy9fV7YrWlt4U5yVoHL+iJvmGfmLdI+Quz2GzjPc37bCldBv7MRdD6dHeej/UojlZzulpHOjFctQ3Kq9WclWHR0etBuXcd6KnQndFdRncTDOadXlyjky47JE95b90Ps/YbLr7ZOySDoSZVDAMxvjEqMHmkTz/p8ExYpq6bF9zakGHuMvIBxhIvf8r1xWh6WFgPvijJq6TT+Eno1Ahf9xlzGtFIuTB4lttO6ETjdMV+PPyrnWHe+s4dPR11Ze04fMZZG3s8q7FgKP5+ep7UwtZANVGjCkBmHwVnHBF3/isRgtcG5S4/eQivKHF8A9T0ZmTgSUkk4Nj3udlBQF8aeq4uIqKNqdRIL86bLsao3UhAEIP1U2Yogt6igXyVfnoUV2/cUp7WX84+UdvafCoVe12U6zkb+mo5eZmAgbN8oEKsVbINai7bRMkEzJZvM7zjaaokFIdbiI/8cVnFa74yoxc9BZ+xFYqh65ZhhhQwcV/MFQSnP106nmHVhIADH0qZ5L8FrVxog="
+            },
+            "receiver.js" : {
+              "name" : "receiver.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "QkgWQEQKDiwU5XjB+BEnSIP790LvSiBsUHjLrq3lEmAo0EATuddUzF2TXFZJHNr9hUNa/AXyNIfQnx7jmfzlextf1WTMvnk/VP5R0zVT1K9JtJtRoHUqzP8KsJ+ciIuIelnie/dH+NQyeFH0x7LyVVZuuYeXv14hvFjFOMYABRoQ3habuRnaFQZd0kgMzmHCtExCbSOB6cSzMG6g46MV94ZVmrPY5mOkgSwyGYemHA6P8k2fgWXJF3TntsFcABUNsU2vnFgWoknCI0m2z7ZPVFT/c1RUPShP29W8zOvIw02c2DCq4LaFan6rT+HY0Y/nPFjxZ9D/hNEqvmRt2DYKPYfKLMhPtv0i/bNBVdY+tcZMWmKN4SGfrDwXLSa14td9sKGT4RR+To2NOWph8rG5V91tjUs7nf5p9sZWmSc10pHFi3nii3sm+JOJ+APtXDqu2/wcd2ReoeQR8TcaHXprU1MuojQ9UfqQJaniU0lapjwGXyX2xCKgzZ6EVzTclYg+mOSIgutcHqYDW6q6qwFrMRLq+j5C9tF22C8cAZRGSMc="
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use both HTML and Markdown.\n<div class=\"hint\">\n\nText of your hint\n\n</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`[element_description](psi_element://link.to.element)`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a [link to the \"contains\" method](psi_element://java.lang.String#contains).\n\n- You can add link to file using **full path** like this:\n  `[file_link](file://lesson1/task1/file.txt)`.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 8284557,
+          "name" : "Putting it Together",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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"
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "command.js" : {
+              "name" : "command.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "RlXsoJyHwlKrQoeh7e8fORArCTKzEgG2FCc9gznr+85/oif+pkCQgDe1G9KYLtZVc0EJ48lZ0BVQzNj5MTf1DXNB5wFTryMrvwlofU/JE+afoEtkSb716dALt6wccpiMTdFi6fzeWQ4ZOF24UaprjTnNfx+fLZrTPoixGqILFjgM7IuZZOHBEtTsAW+kgqjzDkSEEYsVjtB31W08kKsDom5NaH4JBPEdaVY2i1y6dq80DT8WU48DDnXB3fhAaIG/jyVjXvaZe8wug4jSd1nvRlJGNMGS8mJ7KAuU86FzdNGoGTeO7ulbo2urhUqfMRPyGl93pbhlfpGD9KVATy0TaD7tFCTZ9reTV2cgOYULlIXt0FeqK2JaKAssjfAl9PGn69mdT2t7JU2/7OqzlmJTuQ=="
+            },
+            "move-command.js" : {
+              "name" : "move-command.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "f3AvOGkW+5Hdwgwts/7X4+sKxyPxKDPIWw+bFy9fV7ZI2ISKje8ywezDpP4wLNh4wIaIc+GscLArg9xe2yvbKEpgJYrffuLZplb+oV0fmwAXVioC+xMbGVGiPEWFgPciOA1UKJaRPWSLLXuPSXmga/wy1HyzAzUZlW3/6ZzSHVav4bKrLag1W0jABmZpczRaFzeb+bFnrnE2Qo+BOZdAO6auNJnWA4Kr6J/GK1KLY5kfscvMCMc80o4sSMnodedpDLouwtEwiNoKdPRoMareQJEyMzR/h7UrRJJ9gxsxUsYqUiQ9UDMZPIiDJLnpSmNfaC1JltWrbNxcoyyJk7qIBAfcM8MY21yENv3uwLUqS7Xrd057US9n+dDzzZ93PTyv7FIFmKtZ4+VHfnEt9dvTFrDU9TZ5MipN6B9az89de7Jq/LA1F1B3ebBfREtJcCXKBbIDDUYCcXfIf/acN5eR5hRiOWaZt0Re/q/4c7OGK/0YrTQpX+TzDWD1n03YcsTB+hRA7OL8VrRzeEwHA3p/pv+JrupBEYMqnUs81oexxkO1IZBfbiDtBF4Gdvb6E8NDS14clmXXmz5xPysLeda9pJWgYm4rISAdQ5VPWt9zxHznCwQ3aT0YRHcrdI6LQ946YdUmmltpFs5PykCExyN4agTSz7baSUddTWzK5FGNJLtFOLPmKBdtwR5hy/feoXKmg/cxzOg0u3f/XLqYIMCJlnf8cjgoueAGeL/P0S7gj32UtHBl0q6MUGGTgSY1o/2+Su98JVLmyUc2lx09RCCk7UJ+4GFR8XDin2M5CUKAdHDHYZfvtEP4ABMypor8B+oQfuhf1tfnPCGHIqq1R9507gIavQ/f+cQBGpd0l+oPMKqHk4n173CwYNtVHRzRkFYDR3Z/mLzC1nT4DCxalRpDZXq5R+GLgMXJ10b4mPAXzsa18DItBnwp4rRND20DrMqFNXsi4eNpjKS44n/ZiVeWS8FB2mMmwVBg7zkHsFqgcE73uaEdiV/AvOc/7ytVgfDVK3bv6q4c++mktw8tELYdxBPqu8MezgkyqtSvMIXtzAs9wF8rP8q1HhcEF+InIRFieb56t69DYBhC1/tWHIdSzSPE83tsYf3Dm4ClRtGZ1LoGMX4ZPOJizZlPJU+dsUDc9oXibWjZ9Kz3lYM2DxNMZuC5xTPW0RlTTNNyF6x2o5DMMKBXPWkEBTbOsuQWpURj"
+            },
+            "color-command.js" : {
+              "name" : "color-command.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "f3AvOGkW+5Hdwgwts/7X4+sKxyPxKDPIWw+bFy9fV7bSd/kInJtHQGfcRIRQFBiINyFH8SIl11aWZMdKixeQ6JqF64F3h1k1Qm4qt08ZTNgvjZl48pxS0z98iQXM7ESdMjtBKROGvox6GonBsSRvcjrkLn4/tubjePk5qcymwxjNgHzkWeJJ8DPQJc96o5/womDnoupEFDYBD7eIXCH5qloS5EixSPlTpCh4P9lNsTK78c0OcWyHOJEYKnPtTPsZpoT+4W1jsZ3Z3m0Z4vgtrv/VvW1vj4kCQvAMdMh9BoVGEPJhqQdxrrlFYcMfVfbXbk/vAu3Zc6uHPgDN8XQwI4mUs1WA/uPmhMEPO6dsUbjrlesfbRB9M7yl5ktRBXEMJEJ+rYpqa9OPt5UBfGXIIURGlqWGRtgZStOGS+X60eDBqifnTtcZeyaiRe/BolULbQW4eEZKhreP0nuUty3hU/zYsjVvWqk5Xq7jAQE9XrN/gv7lnLWvxwKlRbcRm4s4"
+            },
+            "pen-down-command.js" : {
+              "name" : "pen-down-command.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "f3AvOGkW+5Hdwgwts/7X4+sKxyPxKDPIWw+bFy9fV7ZZlJM7zY3pxSHjp/RGsVeEHuWG68GBTjRK1MKzrw9ZnPI1ZIA132rMrNorrOLE2A36GG1K/6cjVo9PV6ibb44r2Q0gxggYLpB4uii/QIfuF78moHl0jWqKkctwCILc1uZ8Cc8F/Mkw48kU7mX03mbnTSpVSXLUaWSrPo3QFQoCzZ+hjDisQXndkAdHhiwf7aajBlhaGjXZ41Aevx3RhsyVnIKY73lWS6oxUsQHPRa3BqDNdGYYdi2nbv1ajkbuWHzKddJnp1jScXDnGAufm6G5X4+0TuONyGh6egHNzCVq8IAR5TmeFrFhLGcusUVUDydoHNk+sWyO1F9fTfQBlzXgVaLIXhTPxUFHUU5RKN+hgNEMPicEucmuqn+kYJeUvGew082S78fghe3fC4kcaJ7V3sBe774JkcS5o8iIrLDiwQEE21qz2xmWx8m3OsFvPv/KaThvpIdzqClKpmDl/E3U"
+            },
+            "receiver.js" : {
+              "name" : "receiver.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "jBnd3HWiFmtdZM28iNGtINe+aGlWs7rNCUZmQaMAT/zOee9QLCmL0U7gpxMOPekNyuasGR9767qkue743OYeOHi48xtmZNi/VdPQaBKIWa1e1usDfwWe5rGW1HFjjVaSA3C6YAdNPCxbvro005twW++05TBTrV12NUfHN+/sTb8HrSQ5O1XhB+Ms9YSSkPGPFakyb30PeDL72nrRTyypdRiLrO+z9NI7u0cc+PevVs7n1BwDNu3mXM6na41zaQtsCGP9dmyN0iKfmUNjFEPu+W8pzG45R3VT13b6qVYZFJHHVNcTdj+fuR8VSCl0baQAdWU+9Asd2T3Tmj/pjlw2dcFwvgWGQCgFd8vvsXVHctLs4kekKTAgCCfoh/ZYYx0lUobn0FL2MEIBvyFBZKX31Vz+DAmambQQpDuCEfnMbmThGm9LB6nHeQEuyhyDAShXQxhqcarXKwPNF+9wMTBgIu/oZUVqBtnSoxwmLSk4+rUsrKZMvABT4Cj9P/zszNOZLeBhGZF6tEuneMgnxjvG4xICKGxbdWjY/WS0gya9nYcrtw7hGm7fbMQqaU1/jfxUlD3AF40BJd9qcNaYW9lr5KnO6PCyhpB24Y/1P7cmshQ1oDeev5RL/3RKkNUj54vzDdzahYnEqBF7kT6Ywkb4xab69BBhy3/yjhsdtRHF96O02BtpPK/iYukeq2djYwHwex1tgC7KVBrQmJyZxkl6jv6yxFaralnl/LglhApJGmEPPepc5tBrhUVrQXZQo24oJMj96T74ryQ3q5o05kZpgNKx4KK8+WlUUgsZEvm7EWjXsffIJZ8+xTHOyMa3xN04QqbQkwttTaQ9CK5yJWyiXSbOlU2MsHM1SybuNjjBtdy5hycugRp7viZW2kNW2/gaXx7wXUTMdgy1QdDCIR0C5Y8HyNDiF7uFxzYe6+esQWAy4jTae1iVsXIZEhGiynMnWqYPqhJkUTbJu1SEVoU42hhln3ylvl1+59A/W+ayzliCZfJN71lhH61vtbngC0PwCMMo5bbZSkt7M5Lr0vIyl4RAUX6Z9nVIoVR1KUypg2qQdPzJaDX5vj380QvXsUDhJyrWz35+M0K47tVtWLIhdE4ry/l1PsX9N0oREPWHYdIk9OAlDUFeOt5hWAOWO1HVQ0YYyz6lzAxOIC8yp7pcCl64jDuVrdV9Z0Wao+dk6DSfP/QalPVGCRaAEHa7vS7fx0g1y1arSjpam5pcUp9UyTfsevJSqdqpdKN9gx+drZYd65TydrMPa/WZfRVfPaRh97dVNBkutMYqCxQFB5hTdYFjIhntuetQuaeKB76ycbodSM3e8eabR9ZswELDMJWxNuRjf2FT+DPbod+9jUdNLUabE5pNz6a03o4rcvQrj8EqXZnlQCTpv6nfirRd1cPWHiF36X1730lwSPXXCWhTINayP6wHg6yyUB2D9V/LrJqrVvbQqpQ7IH6cAQXNAQvZRT/AdHomhtgDbOoCeF3Ig/oBz77xwuau41HjrXsKT8bGzCsbU8Xpazma5fikFvYDJt+X1Xe7TqaS7ZGJQLvqgd7V2sibPPilSHDHqIZL1VhMVidgnn6R46/oInp/BESMMLjz5y6FRAXEMny053KBG0uoMXbsyEw7YOkpCW4zmQZ3shbdB25x7DbBLQ9s7SUNiM5LdOtsv4APAl7xHL6Qu2dBRgeZVnBiVzGDTp9Zgx1mW/BSmf8w269z1cZ9fZjDJWFnbFs2zE1l6gh7lftQ4uDHxRmHGWLrqkou1nTwsLNGf5rApaJl4EIpj1XivS7aWyBz3vvNwFY3RHtwR0r8784Eik6/KzONwhlLd0VTmR6UVmQNCjWZAaw5lNW2DsV5i8ChPAGU9gqjOvJrJmie0ju7V2hpsN9GEzkafC7idTzzFVYAbqqu9jKN6DT4kPEz6Sid8oi5yIAbj3bnepaRRJa85fnWA9FMl2c/RtfMP326J51K5Ac2+WW1hia09xb2BlZ7+yg3qBw7maBVgizBetu8ulhhvvmhvx/KYgOtvOtzklXabbdubu50zG6JLGshGLblvWb7obQYtxO8kzM7rQV/2ICf2ppIVSXNaKfrvBjAD7Ba3lCVfMoLxwLohhj5L7JDuFf4Pp9wSoWDrU0zV2JEeNyobbpRvAYOsTPsVwMY7GcelJ98Ni2IsqoWhemCA0hHvcwXj2OFppXtUedYmLtGfwUaEhAGaxLEvpllWwiFx7muYZqRiBnYzEzvs8/eMvKUPu5pM313f8mPKbIFyZ8nfRa+146xlqAE0cEJTMAbBSqiGjgVfZ7mc0nhE3G6LG2TJCeLqWxXuFKvWMCq8c6XztPNJRPxBM8b2Caen41Z2qh4HTbpIIoy0PS4idQvyG2/dg6EfMHjVw9/iqqdEVgxeXupH4JrgQDNBM9t2XoIr+eL5gIP9m224D+aNBFGxzIriVfqCMLtUkVDKn2Oncsg4uxOBvexb5fvLlfblCaAUAHMAR3fLVr+Xh8V5HojxYfmqTfRIEW81oaVv8Fp1ygZyvq1VKmPyTgm3SObjAbh+j53eXR1OabrHNeFkzj8cg1LX5wLD92Q97vicb+fG8sfOzm4EvavAC42O1O8I52ff11MwploNX9XsPSp3/KYgxayQ/C+w9wc/xCQjde7iAEIJEnE9KIQlNGmfiIltlQi1XvoqlyYHGkTdu4DUwOK9n9wRhi4epzFuuwXEbIIWIn/8MD9VT4INkxubahmNhvfw07E8L8bdULU4R6ZqBxPZH4ypne0Vd/hw5Ma9Lahrrsbxtr4bR9arQz3euT5akYOgMo86xeR9ftQR6LfcOqsz9DaLC73Xn+vIhPBL2erOAuygxtjXRB8cWfKlByODuH/6OMRg0mvadVHvHRFihzrhh6p0YjrgodkvxI8VGiOHfyPninROrHpriShX2zv6wu1PhRKvCZCPoGWMlSAnqMIIsmRN99to0QV2jV/CyaCTOsrX3pV3xaw0o/Ag1WZBx+PPMWNNAE4Vlpjd7V/HThlZMuDVp1GL4q0OubLjxWdgaHK2eCJD/nenyXSRafF9igjjaBn5vVJEctg3E6doLRvx1XijMhunPtZ4mKYHEGtH0LzFcOQtD2KcOe2iH7mziGbnOP/MSHF0ghH55+P3mezDWd291VuIc2J2maZnrxHiQEwqb7y+xTkPtyjhHPpog/57vtC3AXTcs3V0TyXehtSfuyqchMRzFIgGuutpJdWbLdhKhdUW/Ji9ntZR17+1120VeD5EHDYiNHX37YD+5OB0SQ2fbfzSYufHdpfQV7Y35rsJmZ3epBu/wO58JD6+aQVC10cuvcYUI405w+L5+3SNENpPe34J4UlIOU/5dgVetByMYGHhTQo9+Q2uzEGp6NjU1dhm069oWJIulw5rxTJ9n8O0bp6DNxZ3W4n+MhznUF9VPLsEML6O8J1/1yuS63lEzElnHLVqmrnTaNVZ2nD4d0WktlQ938hAtjBPNdSC8mHAy3l7+8cMs+gM8xlw+x36Y7CWWrVq/POvPMjT0L3DtFhdpE5oFQLxsmLZiicLiQHqTalGYS2FxNrIFK2JU7TyhZqP4/1R4hRqnbWb8cvYutWmRoXvr4w3luSDeMih+TNj0i2Fl4L6NO2EOx7/O2TUqa8gzrudiLoVv86Ou9LjzIgmkWKbRTMDdaLAC/fDzSuCYzN7OXTPzcZkir1Ir0YMU9MtvnIyif1FS8AuLD2TnQMk4mzoxpqXhxtkrAQ9AccRM9RaOrmLiux912eRuxdXmvwhoCx4c9FAYi40oOLgo6KgXAy+8H8GAFQsK7vF+s45dEWSa4Y0V6VLymTd/z79llVRKaDao9eD6IOkTa2TnrOAuFelhteIosv7tzL29VX99osxAwfTwTyLNuWKEYRH59Wz0kJ8LADb9j/OxacDQg+X1KZzIdBiK966M8/HZ6uBN/Kk9T19gjxsgDSgcbzx6cmsX8tMhrlimVj3Rhkhh71V7ryf1y1TuUSDQuK0JGcqk4GhCBeB1bt6ix2BIh6ZmKQspWdbuaLfrv+fgccXpFHw/ZbO2TXIowPefSBRZ7A5VXWX/1EoxD4QbSHkKLIMByIkj1kPh+i9MXYi84LU0ndERaPf1rlxybs0iy/gG0d0pr9FvvumEWFDAISL9GyIKxJMwyYckVI5zh2qH9wm3Arj/CH2ErFS+ux759kD4qS8H/IxQPsTqkbCEY8JXydmKRTzU8bPwVfJB2U0v0JfWZWvqGLEyfg6conXgtQ42pLK8WgB/EKZQ8v3r/8C6kxD9KK9jwB+j+BbOD8SUn5zJy8slvkj4mPYgpB3XQRHMvznfjXZxC/Lnlx6d7ob7/xVgDKsz01CN/AluR8iwEhJRaXn8Z1FUqRZ43R8jP+R9XT0s0tSXmYfrgHgc8Z+d3CacVZU2Nk5cUQcyUiEHbD54rm0HahgvJScr0HRxhdCZYVjagy8zDh8L9jSQRKG0KEDSDcRgEwEt5mLJK3RG5v"
+            }
+          },
+          "description_text" : "Now we can put our application together using the commands that we have created.\n\ndo something...\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
       "type" : "lesson"
     },
     {
@@ -515,6 +670,12 @@
     }
   ],
   "additional_files" : [
+    {
+      "name" : "README.md",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "BhaW5IJT6Vd/vMZJHWDCZg8aQHzevYldMixkVQlSRxspKY+HgMHyFE0E6PNNihFdfGbc1YffaTUhz1sxvXpIPL2eX8RyO0eeuZ6+I0tZPRI3REs3IopHh8X/vVlV7lv6GbnjZ0skUCOYeik7mT8OAedFvHBb07S9qz8ehOzdPS+gxenR+dGQ7fJCIKprMQTJ0rjokDlMbEhbxoPSmv8X5RRLXX8sRPsRztZZMj2cTAgUnzHammcQm+r6ch2yDSAWhqXrnDPAdOCfZkI9dqOeq3lpvENnm0P2sfeOLZIBEEwrQrj+ldwgoo3KWkSCn3469TFsTCz7du/VVVxLA4uLEzRl5xa2XFaswgtuQPrjOW+jwBxM7wc7L4MaYF/wpDPuK/RzpKEic+JoJstvLFSbm553QzOIqWf3kcqZAIuJjziW/NABTM7+8Dh/ZctNDJA0rd4AsZqCYQ4jbhRMI38QLuhyLnCA74DlhZEPp11Pm+ZBvxRudnUp4UG2JU2CaqDFM6uTFQNdvfsP6YyNRLZFXeadWq7b0XhHWkC9dqNPJ5YPrCKrIKkIIEBcKp4DbnCIdevEWwUFaPFUHGOVGN03PX7Z+tVo/QAeH01p2AGaCjNthTh3UFVyIFrIKwXWOwQ3VL9kxu/sP7i8261ZQMXmIEVw5yzRjY1NKob5DQyaAxaxk7hjtRJwtBuVqFmyQlcdTJUdzQ0++3NoPdLqvAHzhALS14bMtyqvOGlZBgdqx/5vhwc4UqwJzAae+BCZLbmy+zE8iNHm9BchgnPQUKKUqHyFmFlZHZ/EFGF/F5ugg9cYBK/w5baFTixMEHRYWiX6RJD4BVldSCnPnsr4mlFmjvpcCGkUdDrXCTRir837Lbnk4PnkqxDKcBy4SvYtQTu9Iv/Y2nQXXT49RVKlKt77cIHgiL67XN1ch5hrjJ+8CN8oMQbt+cHuGRwe16beEqfO3NlDYU/G75A2TEM4ouwO9ACGtsSv1lFlmvv248DK0eHCxN9mcNTeNq3NnohMaBOdraUdZAY5j96Dq7Q4q4wn5vGdYpl0FGh4ppgjrZiflqnz0U7pCREq8DNwOD6SEm6uO6QxFJNA/JBl7zwCBzUXQNfF9AmkORI2k1TlOMegsu6mgApWJTcxi8Up/C2qK/HMVJyKM7ksdiuuOwCMFi/9R7gKf3WiCojvWo338JV6R2ybAKdIGgk2nT2fckhIggzhRvIO53h9mhb6pxnPKQZ/2QcZhPFoBtjQCmTyqi9x0sapiaMXvL7/Lsf2QNW/nY0xwZRxC0wz/tMthodo9pEqRggBtq81jLf6mBZo5g8OVzVNpUnRj6VKsOJBUTnjspCiq+g6PRdAH2jKqRLx2E41NwBSHnr85DHPOyj5mraP4lShowMWL6BfTNP5+cYG3RXwJJ3Lq0z8257/kAv6Frl7xMrYDcobHptTNrWHHnBZAb0rVvHoY8tLjFxUoDMJpPnIV+A9aP8XR7KjMTacNa1+1YSMF7ZlwC0WSSjkCbtbEMGCeJXcAE74WA4+TIcniHl4g4icbs675Nnd0FB5E5ZA7A=="
+    },
     {
       "name" : "package.json",
       "placeholders" : [ ],

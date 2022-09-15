@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: test/test.js
+  visible: false
+- name: command.js
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 59
+    placeholder_text: /* TODO - create the Command interface */

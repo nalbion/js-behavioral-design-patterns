@@ -1,0 +1,1 @@
+Define the `Command` interface, with an abstract `execute()` method.
