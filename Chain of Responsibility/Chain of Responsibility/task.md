@@ -1,9 +1,9 @@
-The [Chain of Responsibility](https://refactoring.guru/design-patterns/Chain of Responsibility) pattern 
+The [Chain of Responsibility](https://refactoring.guru/design-patterns/Chain%20of%20Responsibility) pattern 
 (also known as chain of command) is a behavioral design pattern which involves a source of **command** objects 
 which are sent along a chain of processing **handlers**.
 
-<a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il" target="_blank">
-<img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0201633612&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=dubbiebee07-20&language=en_US" >
+<a href="//www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il" target="_blank">
+  <img src="https://m.media-amazon.com/images/I/51szD9HC9pL._SL160_.jpg">
 </a>
 
 The application, or **client**, composes a chain of handlers and sends the command/request

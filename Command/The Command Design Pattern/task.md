@@ -12,8 +12,8 @@ Commands can be:
 - handled as undo/redo actions
 - logged for reproduction of bugs
 
-<a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il" target="_blank">
-<img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0201633612&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=dubbiebee07-20&language=en_US" >
+<a href="//www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?&linkCode=li2&tag=dubbiebee07-20&linkId=c5edec6e46a749a9a2baa30e5b073703&language=en_US&ref_=as_li_ss_il" target="_blank">
+  <img src="https://m.media-amazon.com/images/I/51szD9HC9pL._SL160_.jpg">
 </a>
 
 In this lesson we use the command pattern to create an SVG. 
